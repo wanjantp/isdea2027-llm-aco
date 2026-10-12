@@ -17,7 +17,7 @@
   "seed": 0,
   "uav": "data/energy/uav_params.json"
  },
- "eval_timeout_s": 180,
+ "eval_timeout_s": 120,
  "budget": 8,
  "pop_size": 3,
  "n_workers": 3,

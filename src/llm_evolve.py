@@ -126,12 +126,29 @@ Fix the problem and return the corrected heuristic (same signature; output must 
 and powers against zero/negative values with np.maximum, np.clip or small epsilons). Keep the same design idea."""
 
 
-def _eval_worker(code: str, fields_path: str, field_ids: list, template: str, aco_cfg: dict, width: float, ref: dict, q):
+def _single_thread():
+    """numpy/BLAS must not spawn one thread per core inside every worker, or N workers oversubscribe the CPU."""
+    for k in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS", "NUMEXPR_NUM_THREADS"):
+        os.environ[k] = "1"
+
+
+def swath_cache(fields_path: str, field_ids: list, width: float, cache_path: str):
+    """Swaths for the training fields, generated once and pickled (saves ~10 % of every evaluation)."""
+    import pickle
+    if os.path.exists(cache_path):
+        return pickle.load(open(cache_path, "rb"))
+    from fields import load_fields
+    from swaths import generate_swaths, best_angle
+    out = {f.id: generate_swaths(f.polygon, width, best_angle(f.polygon, width)) for f in load_fields(fields_path, field_ids)}
+    pickle.dump(out, open(cache_path, "wb"))
+    return out
+
+
+def _eval_worker(code: str, fields_path: str, field_ids: list, template: str, aco_cfg: dict, width: float, ref: dict, cache_path: str, q):
     try:
+        _single_thread()
         import warnings; warnings.filterwarnings("ignore")
         import numpy as np; np.seterr(all="ignore")
-        from fields import load_fields
-        from swaths import generate_swaths, best_angle
         from energy import Costs, UAVModel
         from aco import ACO, ACOParams
         from heuristics import load_heuristic_from_code
@@ -143,20 +160,21 @@ def _eval_worker(code: str, fields_path: str, field_ids: list, template: str, ac
             q.put({"status": "invalid_output" if "invalid output" in str(e) else "runtime", "error": str(e)[:300]}); return
         uav = UAVModel.load(aco_cfg["uav"]) if aco_cfg.get("uav") else UAVModel()
         params = ACOParams(n_ants=aco_cfg["n_ants"], n_iters=aco_cfg["n_iters"])
-        ratios = []
-        for f in load_fields(fields_path, field_ids):
-            sw = generate_swaths(f.polygon, width, best_angle(f.polygon, width))
-            C = Costs(sw, (0.0, 0.0), uav)
+        swaths = swath_cache(fields_path, field_ids, width, cache_path)
+        ratios, t_fields = [], []
+        for fid in field_ids:
+            t0 = time.time()
+            C = Costs(swaths[fid], (0.0, 0.0), uav)
             _, r, _ = ACO(params, fn, seed=aco_cfg.get("seed", 0), feature_mask=mask_for_template(template)).run(C)
-            ratios.append(r.energy_J / ref[f.id])
-        q.put({"status": "ok", "fitness": float(np.mean(ratios)), "per_field": ratios})
+            ratios.append(r.energy_J / ref[fid]); t_fields.append(time.time() - t0)
+        q.put({"status": "ok", "fitness": float(np.mean(ratios)), "per_field": ratios, "aco_s": round(sum(t_fields), 1)})
     except Exception as e:
         q.put({"status": "runtime", "error": (str(e) or type(e).__name__)[:300]})
 
 
-def evaluate(code, fields_path, field_ids, template, aco_cfg, width, ref, timeout_s):
+def evaluate(code, fields_path, field_ids, template, aco_cfg, width, ref, timeout_s, cache_path):
     q = mp.Queue()
-    p = mp.Process(target=_eval_worker, args=(code, fields_path, field_ids, template, aco_cfg, width, ref, q))
+    p = mp.Process(target=_eval_worker, args=(code, fields_path, field_ids, template, aco_cfg, width, ref, cache_path, q))
     t0 = time.time(); p.start(); p.join(timeout_s)
     if p.is_alive():
         p.terminate(); p.join()
@@ -196,7 +214,9 @@ def main():
     seed_code = TEMPLATES[template].strip()
     fields_path, width = cfg["train_fields"], cfg.get("swath_width", 5.0)
     train_ids = cfg.get("train_ids") or [f["properties"]["field_id"] for f in json.load(open(fields_path))["features"]]
-    aco_cfg = cfg["aco_eval"]; timeout_s = cfg.get("eval_timeout_s", 120)
+    aco_cfg = cfg["aco_eval"]; timeout_s = cfg.get("eval_timeout_s", 600)
+    cache_path = os.path.join(a.out, "swath_cache.pkl")
+    swath_cache(fields_path, train_ids, width, cache_path)
     ref = reference_energies(fields_path, train_ids, width, aco_cfg.get("uav"))
     budget, pop_size = cfg.get("budget", 300), cfg.get("pop_size", 10)
     n_workers = cfg.get("n_workers", 4)
@@ -226,7 +246,7 @@ def main():
         # evaluate several candidates concurrently (each in its own subprocess)
         from concurrent.futures import ThreadPoolExecutor
         with ThreadPoolExecutor(max_workers=n_workers) as ex:
-            outs = list(ex.map(lambda it: evaluate(it["code"], fields_path, train_ids, template, aco_cfg, width, ref, timeout_s), items))
+            outs = list(ex.map(lambda it: evaluate(it["code"], fields_path, train_ids, template, aco_cfg, width, ref, timeout_s, cache_path), items))
         failed = []
         for it, o in zip(items, outs):
             it.update(o); archive.append(it)
@@ -276,7 +296,9 @@ def main():
             children.append(gen_and_eval(P_MUTATE.format(task=task, best=pop[0]["code"], f_best=pop[0]["fitness"], insights=insights), gen, "mutation"))
         eval_batch(children)
         st = {s: sum(1 for x in archive if x["status"] == s) for s in ("ok", "syntax", "runtime", "invalid_output", "timeout")}
+        ev = [x["eval_s"] for x in children if "eval_s" in x]
         print(f"gen {gen}: generated {n_generated}/{budget}, best {pop[0]['fitness']:.4f} (gen {pop[0]['gen']}), status {st}, "
+              f"eval {sum(ev)/max(1,len(ev)):.0f}s/heur, "
               f"llm {llm.n_calls} calls {llm.total.completion_tokens} out-tok {llm.total.cost_usd:.3f} USD, {(time.time()-t_start)/60:.1f} min", flush=True)
         json.dump({"insights": insights, "best": pop[0], "population": pop, "llm": llm.summary(), "status_counts": st,
                    "elapsed_s": time.time() - t_start, "n_generated": n_generated, "config": cfg, "seed": a.seed},
@@ -288,5 +310,6 @@ def main():
 
 
 if __name__ == "__main__":
+    _single_thread()
     mp.set_start_method("spawn", force=True)
     main()

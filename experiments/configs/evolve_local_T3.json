@@ -1,13 +1,26 @@
 {
-  "llm": {"provider": "ollama", "model": "qwen2.5-coder:7b", "base_url": "http://localhost:11434",
-          "temperature": 0.8, "max_tokens": 1200, "timeout_s": 300, "price_in": 0.0, "price_out": 0.0},
-  "template": "T3",
-  "train_fields": "data/synthetic/synthetic_train_seed0.geojson",
-  "train_ids": null,
-  "swath_width": 5.0,
-  "aco_eval": {"n_ants": 15, "n_iters": 40, "seed": 0, "uav": "data/energy/uav_params.json"},
-  "eval_timeout_s": 180,
-  "budget": 300,
-  "pop_size": 10,
-  "n_workers": 8
+ "llm": {
+  "provider": "ollama",
+  "model": "qwen2.5-coder:7b",
+  "base_url": "http://localhost:11434",
+  "temperature": 0.8,
+  "max_tokens": 1200,
+  "timeout_s": 300,
+  "price_in": 0.0,
+  "price_out": 0.0
+ },
+ "template": "T3",
+ "train_fields": "data/synthetic/synthetic_train_seed0.geojson",
+ "train_ids": null,
+ "swath_width": 5.0,
+ "aco_eval": {
+  "n_ants": 15,
+  "n_iters": 40,
+  "seed": 0,
+  "uav": "data/energy/uav_params.json"
+ },
+ "eval_timeout_s": 600,
+ "budget": 300,
+ "pop_size": 10,
+ "n_workers": 8
 }
