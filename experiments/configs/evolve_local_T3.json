@@ -10,7 +10,7 @@
   "price_out": 0.0
  },
  "template": "T3",
- "train_fields": "data/synthetic/synthetic_train_seed0.geojson",
+ "train_fields": "data/train/train_v2.geojson",
  "train_ids": null,
  "swath_width": 5.0,
  "aco_eval": {

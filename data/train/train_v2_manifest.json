@@ -1,0 +1,37 @@
+{
+ "description": "Training set v2 for LLM heuristic evolution: 20 hardest Fields2Benchmark POOL fields (lowest B2/B1 energy ratio, disjoint from validation/test_A/test_B) + 10 hardest synthetic v2 fields. Chosen 2026-10-12 after v1 (30 random synthetic) showed <3% headroom.",
+ "f2b_pool_ids": [
+  "lt_field_143",
+  "ee_field_45",
+  "nl_field_105",
+  "lt_field_289",
+  "ee_field_79",
+  "ee_field_117",
+  "lt_field_280",
+  "ee_field_150",
+  "nl_field_338399",
+  "ee_field_114",
+  "ee_field_82",
+  "lt_field_119",
+  "nl_field_586195",
+  "ee_field_221",
+  "lt_field_131",
+  "ee_field_163",
+  "ee_field_170",
+  "ee_field_132",
+  "lt_field_202",
+  "nl_field_30475"
+ ],
+ "synthetic_ids": [
+  "SYN2-01-009",
+  "SYN2-01-014",
+  "SYN2-01-026",
+  "SYN2-01-021",
+  "SYN2-01-011",
+  "SYN2-01-017",
+  "SYN2-01-012",
+  "SYN2-01-002",
+  "SYN2-01-029",
+  "SYN2-01-003"
+ ]
+}
