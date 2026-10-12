@@ -1,0 +1,24 @@
+{
+ "llm": {
+  "provider": "mock",
+  "model": "mock"
+ },
+ "template": "T3",
+ "train_fields": "data/synthetic/synthetic_train_seed0.geojson",
+ "train_ids": [
+  "SYN-00-000",
+  "SYN-00-001",
+  "SYN-00-002"
+ ],
+ "swath_width": 5.0,
+ "aco_eval": {
+  "n_ants": 8,
+  "n_iters": 10,
+  "seed": 0,
+  "uav": "data/energy/uav_params.json"
+ },
+ "eval_timeout_s": 180,
+ "budget": 8,
+ "pop_size": 3,
+ "n_workers": 3
+}

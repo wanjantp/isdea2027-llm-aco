@@ -15,3 +15,9 @@ Run from project root:
 
 Depot is the bbox corner (0,0) of each field for every method. Swath width default 5 m.
 Heuristic interface (the only thing methods differ in): see heuristics.py docstring.
+
+## LLM evolution
+    python src/llm_evolve.py --config experiments/configs/evolve_local_T3.json --seed 0 --out experiments/results/evolve/local_T3_s0
+Configs in experiments/configs: evolve_local_{T1,T2,T3}.json (Ollama), evolve_api_T3.json (OpenAI-compatible API; set LLM_API_KEY),
+evolve_smoke_mock.json (no model, plumbing test). Outputs per run: heuristics.jsonl (every program + status), state.json, best_heuristic.py,
+llm_calls.jsonl (full prompts/responses, git-ignored). llm_client.py: providers ollama | openai | mock.

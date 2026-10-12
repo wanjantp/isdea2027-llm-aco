@@ -1,0 +1,14 @@
+name: isdea
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - shapely>=2.0
+  - pyproj>=3.5
+  - matplotlib>=3.7
+  - scipy>=1.10
+  - pandas>=2.0
+  - pip
+  - pip:
+      - ortools>=9.8

@@ -9,7 +9,7 @@ models/
 ollama_models/
 *.log
 experiments/results/**/raw_llm/
-experiments/results/**/*.jsonl
+experiments/results/**/llm_calls.jsonl
 
 # python
 __pycache__/

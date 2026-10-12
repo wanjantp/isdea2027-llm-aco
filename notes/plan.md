@@ -14,5 +14,6 @@
 - [x] ACO (MMAS) + baselines B1-B4 (src/aco.py, src/heuristics.py); smoke test OK
 - [ ] B5 OR-Tools baseline
 - [ ] tune alpha/beta/rho + w_turn on validation set, then lock
-- [ ] ReEvo/EoH integration (src/llm_evolve.py)
-- [ ] local LLM setup
+- [x] ReEvo-style evolution loop (src/llm_evolve.py, src/llm_client.py); mock test OK
+- [ ] run real evolution on chopin (local T3 seed 0) and inspect
+- [ ] local LLM setup on chopin: bash setup_chopin.sh (conda env isdea + Ollama)
