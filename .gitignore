@@ -1,0 +1,33 @@
+# large / regenerable data
+data/fields2benchmark/imgs/
+data/fields2benchmark/imgs.zip
+*.zip
+!data/fields2benchmark/wkt.zip
+
+# LLM models, caches, logs
+models/
+ollama_models/
+*.log
+experiments/results/**/raw_llm/
+experiments/results/**/*.jsonl
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# paper build files
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc
