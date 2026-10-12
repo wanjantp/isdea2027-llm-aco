@@ -17,3 +17,8 @@
 - [x] ReEvo-style evolution loop (src/llm_evolve.py, src/llm_client.py); mock test OK
 - [ ] run real evolution on chopin (local T3 seed 0) and inspect
 - [ ] local LLM setup on chopin: bash setup_chopin.sh (conda env isdea + Ollama)
+
+# LLM roster (decided 2026-10-12)
+- local main P1: qwen3.5:9b (latest small, think=false); anchor: qwen2.5-coder:7b (seed0 running); optional: qwen3.5:35b-a3b-coding
+- API main P2: openai/gpt-6-luna via OpenRouter; alt: anthropic/claude-haiku-5.5; parity: qwen/qwen3.5-9b; top ref: openai/gpt-6-sol (1 seed)
+- repair_attempts config added (default 0); think disabled for all models

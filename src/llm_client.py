@@ -28,8 +28,12 @@ class Usage:
 class LLMClient:
     def __init__(self, provider: str, model: str, base_url: str | None = None, api_key: str | None = None,
                  temperature: float = 0.8, max_tokens: int = 1200, timeout_s: int = 180,
-                 price_in: float = 0.0, price_out: float = 0.0, log_path: str | None = None):
+                 price_in: float = 0.0, price_out: float = 0.0, log_path: str | None = None,
+                 think: bool = False, extra_body: dict | None = None):
+        """think: for models with a thinking mode (Ollama `think`, OpenRouter `reasoning`). Off by default so all
+        models are compared in plain generation mode; extra_body: raw keys merged into the request payload."""
         self.provider, self.model = provider, model
+        self.think, self.extra_body = think, extra_body or {}
         self.base_url = (base_url or ("http://localhost:11434" if provider == "ollama" else "https://api.openai.com/v1")).rstrip("/")
         self.api_key = api_key or os.environ.get("LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
         self.temperature, self.max_tokens, self.timeout_s = temperature, max_tokens, timeout_s
@@ -66,18 +70,20 @@ class LLMClient:
                 text = f"{{mock variant w={w} k={k}}}\n```python\nimport numpy as np\n\ndef heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):\n{body}\n```"
             u = Usage(100, 80)
         elif self.provider == "ollama":
-            out = self._post(f"{self.base_url}/api/chat", {
-                "model": self.model, "stream": False,
-                "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
-                "options": {"temperature": temp, "num_predict": self.max_tokens}}, {})
+            payload = {"model": self.model, "stream": False, "think": self.think,
+                       "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
+                       "options": {"temperature": temp, "num_predict": self.max_tokens}, **self.extra_body}
+            out = self._post(f"{self.base_url}/api/chat", payload, {})
             text = out["message"]["content"]
             u = Usage(out.get("prompt_eval_count", 0), out.get("eval_count", 0))
         else:
-            out = self._post(f"{self.base_url}/chat/completions", {
-                "model": self.model, "temperature": temp, "max_tokens": self.max_tokens,
-                "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]},
-                {"Authorization": f"Bearer {self.api_key}"})
-            text = out["choices"][0]["message"]["content"]
+            payload = {"model": self.model, "temperature": temp, "max_tokens": self.max_tokens,
+                       "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}], **self.extra_body}
+            if "openrouter" in self.base_url and "reasoning" not in payload:
+                payload["reasoning"] = {"enabled": True} if self.think else {"enabled": False}
+            out = self._post(f"{self.base_url}/chat/completions", payload,
+                             {"Authorization": f"Bearer {self.api_key}", "HTTP-Referer": "https://github.com/wanjantp/isdea2027-llm-aco", "X-Title": "ISDEA LLM-ACO"})
+            text = out["choices"][0]["message"]["content"] or ""
             uu = out.get("usage", {})
             u = Usage(uu.get("prompt_tokens", 0), uu.get("completion_tokens", 0))
         u.seconds = time.time() - t0

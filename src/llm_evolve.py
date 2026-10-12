@@ -116,9 +116,20 @@ Write a NEW heuristic that improves on the best one by applying the insights. Ch
 
 
 # ------------------------------------------------------------------------------------ evaluation (subprocess)
+P_REPAIR = """{task}
+
+The following heuristic failed when executed. Status: {status}. Error: {error}
+```python
+{code}
+```
+Fix the problem and return the corrected heuristic (same signature; output must be K strictly positive finite floats; guard divisions
+and powers against zero/negative values with np.maximum, np.clip or small epsilons). Keep the same design idea."""
+
+
 def _eval_worker(code: str, fields_path: str, field_ids: list, template: str, aco_cfg: dict, width: float, ref: dict, q):
     try:
-        import numpy as np
+        import warnings; warnings.filterwarnings("ignore")
+        import numpy as np; np.seterr(all="ignore")
         from fields import load_fields
         from swaths import generate_swaths, best_angle
         from energy import Costs, UAVModel
@@ -209,16 +220,27 @@ def main():
         n_generated += 1
         return {"code": code, "desc": desc, "gen": gen, "op": op, "idx": n_generated, "raw": text}
 
-    def eval_batch(items):
+    repair_attempts = cfg.get("repair_attempts", 0)   # 0 = off (default); 1 = one self-repair round for failed code
+
+    def eval_batch(items, _depth=0):
         # evaluate several candidates concurrently (each in its own subprocess)
         from concurrent.futures import ThreadPoolExecutor
         with ThreadPoolExecutor(max_workers=n_workers) as ex:
             outs = list(ex.map(lambda it: evaluate(it["code"], fields_path, train_ids, template, aco_cfg, width, ref, timeout_s), items))
+        failed = []
         for it, o in zip(items, outs):
             it.update(o); archive.append(it)
             log_f.write(json.dumps({k: v for k, v in it.items() if k != "raw"}) + "\n"); log_f.flush()
             if o["status"] == "ok": pop.append(it)
+            elif _depth < repair_attempts and n_generated < budget: failed.append(it)
         pop.sort(key=lambda x: x["fitness"]); del pop[pop_size:]
+        if failed:
+            repaired = []
+            for it in failed:
+                if n_generated >= budget: break
+                r = gen_and_eval(P_REPAIR.format(task=task, status=it["status"], error=it.get("error", ""), code=it["code"]), it["gen"], "repair")
+                r["parent_idx"] = it["idx"]; repaired.append(r)
+            if repaired: eval_batch(repaired, _depth + 1)
 
     # seed heuristic as a known-valid member
     seed_item = {"code": seed_code, "desc": "seed: inverse distance", "gen": 0, "op": "seed", "idx": 0}

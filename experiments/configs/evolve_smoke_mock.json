@@ -20,5 +20,6 @@
  "eval_timeout_s": 180,
  "budget": 8,
  "pop_size": 3,
- "n_workers": 3
+ "n_workers": 3,
+ "repair_attempts": 1
 }
