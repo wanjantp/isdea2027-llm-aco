@@ -12,9 +12,9 @@
  ],
  "swath_width": 5.0,
  "aco_eval": {
-  "n_ants": 8,
-  "n_iters": 10,
-  "seed": 0,
+  "n_ants": 2,
+  "n_iters": 2,
+  "n_seeds": 2,
   "uav": "data/energy/uav_params.json"
  },
  "eval_timeout_s": 120,

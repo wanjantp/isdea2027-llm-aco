@@ -17,7 +17,7 @@ from energy import Costs, evaluate_route, RouteResult, dist, heading, turn_angle
 class ACOParams:
     n_ants: int = 30
     n_iters: int = 150
-    alpha: float = 1.0
+    alpha: float = 1.0          # LOCKED 2026-10-13: grid {0.5,1,2}x{2,3,5}x{0.05,0.1,0.2} on validation -> (1, 3, 0.1) best
     beta: float = 3.0
     rho: float = 0.1            # evaporation
     p_best: float = 0.05        # MMAS tau_min derivation
@@ -25,6 +25,7 @@ class ACOParams:
     candidate_k: int = 0        # 0 = all candidates; >0 = nearest-k candidate list by distance (speed)
     time_limit_s: float = 0.0   # 0 = none
     local_search: bool = False  # 2-opt style or-opt on the swath order (same for all methods when on)
+    greedy: bool = False        # deterministic constructive policy: always pick argmax of heuristic (no pheromone, no sampling)
 
 
 class ACO:
@@ -81,9 +82,12 @@ class ACO:
             feats = self.mask(d, t, self.len[cand], efrac, self.depot_dist_end[cand], fits)
             eta = np.asarray(self.h(*feats), float)
             eta = np.where(np.isfinite(eta) & (eta > 0), eta, 1e-9)
-            w = (ph ** a) * (eta ** b)
-            s = w.sum()
-            k = self.rng.choice(len(cand), p=w / s) if s > 0 and np.isfinite(s) else self.rng.integers(len(cand))
+            if self.p.greedy:
+                k = int(np.argmax(eta))
+            else:
+                w = (ph ** a) * (eta ** b)
+                s = w.sum()
+                k = self.rng.choice(len(cand), p=w / s) if s > 0 and np.isfinite(s) else self.rng.integers(len(cand))
             node = int(cand[k]); i, di = divmod(node, 2)
             # battery bookkeeping identical to energy.evaluate_route
             if need[k] > rem and cur >= 0:
@@ -112,6 +116,10 @@ class ACO:
     def run(self, C: Costs, log=None) -> tuple[list, RouteResult, dict]:
         self._prep(C)
         n, N, p = self.n, self.N, self.p
+        if p.greedy:   # single deterministic construction
+            tau = np.ones((N, N)); tau0 = np.ones(N)
+            o = self._construct(tau, tau0); r = evaluate_route(o, C)
+            return o, r, {"history": [r.energy_J], "iters": 1, "time_s": 0.0}
         # initial solution for tau_max: greedy nearest
         gb_order = None; gb = None
         tau_max = 1.0; tau = np.full((N, N), tau_max); tau0 = np.full(N, tau_max)

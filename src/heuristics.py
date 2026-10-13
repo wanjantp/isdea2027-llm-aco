@@ -26,13 +26,18 @@ def h_distance(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fi
 
 
 # ---- B3: human-designed, MS-ACO style: distance + corner (turn) cost ----------------------
-def h_dist_turn(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits, w_turn=0.25):
-    # turn cost expressed in equivalent metres: 0.25 m per degree -> a 180-degree turn ~ 45 m
+# LOCKED 2026-10-13 after grid search on the validation split (experiments/tune_baselines.py, 25 fields x 3 seeds):
+#   w_turn in {0,0.05,0.1,0.25,0.5,1.0}: ratio-to-B1 0.9662, 0.9671, 0.9688, 0.9723, 0.9788, 0.9900 -> optimum is 0 (= B2).
+#   We keep the best NON-ZERO weight (0.05) so B3 remains a genuine turn-aware hand-crafted heuristic; report the trend in the paper.
+def h_dist_turn(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits, w_turn=0.05):
+    # turn cost expressed in equivalent metres per degree
     return 1.0 / (dist_m + w_turn * turn_deg + 1.0)
 
 
 # ---- B4: human-designed, battery-aware (our fair hand-crafted competitor) ------------------
-def h_dist_turn_battery(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits, w_turn=0.25, w_depot=0.5):
+# LOCKED 2026-10-13: grid over w_turn x w_depot ({0..1} x {0..2}) -> optimum w_turn=0, w_depot=0 (0.9669, i.e. no better than B2).
+#   Best non-zero pair kept: w_turn=0.05, w_depot=0.25 (0.9678).
+def h_dist_turn_battery(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits, w_turn=0.05, w_depot=0.25):
     base = 1.0 / (dist_m + w_turn * turn_deg + 1.0)
     # when the battery is low, prefer swaths that end close to the depot; infeasible ones are strongly discouraged
     low = np.clip(1.0 - energy_left_frac, 0, 1)

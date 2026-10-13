@@ -22,6 +22,7 @@ ap.add_argument("--fields", required=True); ap.add_argument("--split"); ap.add_a
 ap.add_argument("--heuristic", action="append", default=[], help="name=path/to/heuristic.py (repeatable)")
 ap.add_argument("--baselines", default="B2_distance,B3_dist_turn,B4_dist_turn_battery", help="comma list, or 'none'")
 ap.add_argument("--seeds", type=int, default=10); ap.add_argument("--ants", type=int, default=30); ap.add_argument("--iters", type=int, default=150)
+ap.add_argument("--budgets", default="", help="comma list of ants x iters, e.g. 'greedy,1x1,3x3,5x10,15x40,30x150'; overrides --ants/--iters and sweeps")
 ap.add_argument("--width", type=float, default=5.0); ap.add_argument("--uav", default="data/energy/uav_params.json")
 ap.add_argument("--workers", type=int, default=8); ap.add_argument("--limit", type=int, default=0)
 ap.add_argument("--out", required=True)
@@ -29,7 +30,7 @@ a = ap.parse_args()
 
 
 def _job(args):
-    fid, method, kind, src, seed, swaths, uav_path, ants, iters = args
+    fid, method, kind, src, seed, swaths, uav_path, ants, iters, budget = args
     import warnings; warnings.filterwarnings("ignore")
     import numpy as np; np.seterr(all="ignore")
     from energy import Costs, UAVModel
@@ -41,8 +42,8 @@ def _job(args):
         _, r = boustrophedon(C)
     else:
         fn = BASELINES[src] if kind == "baseline" else load_heuristic_from_code(open(src).read())
-        _, r, _ = ACO(ACOParams(n_ants=ants, n_iters=iters), fn, seed=seed).run(C)
-    return dict(field_id=fid, method=method, seed=seed, energy_MJ=r.energy_J / 1e6, time_min=r.time_s / 60, sorties=r.n_sorties,
+        _, r, _ = ACO(ACOParams(n_ants=ants, n_iters=iters, greedy=(budget == "greedy")), fn, seed=seed).run(C)
+    return dict(field_id=fid, method=method, budget=budget, seed=seed, energy_MJ=r.energy_J / 1e6, time_min=r.time_s / 60, sorties=r.n_sorties,
                 work_m=r.dist_work_m, transit_m=r.dist_transit_m, turn_deg=r.total_turn_deg, feasible=r.feasible, cpu_s=time.time() - t0)
 
 
@@ -61,11 +62,16 @@ def main():
         methods += [(b, "baseline", b) for b in a.baselines.split(",")]
     for h in a.heuristic:
         name, path = h.split("=", 1); methods.append((name, "file", path))
+    budgets = [b.strip() for b in a.budgets.split(",") if b.strip()] or [f"{a.ants}x{a.iters}"]
     jobs = []
     for f in fields:
         for name, kind, src in methods:
-            for s in (range(a.seeds) if kind != "b1" else [0]):
-                jobs.append((f.id, name, kind, src, s, sw[f.id], a.uav, a.ants, a.iters))
+            if kind == "b1":
+                jobs.append((f.id, name, kind, src, 0, sw[f.id], a.uav, 1, 1, "none")); continue
+            for b in budgets:
+                ants, iters = (1, 1) if b == "greedy" else map(int, b.split("x"))
+                for s in (range(a.seeds) if b != "greedy" else [0]):
+                    jobs.append((f.id, name, kind, src, s, sw[f.id], a.uav, ants, iters, b))
     print(f"{len(jobs)} runs on {a.workers} workers", flush=True)
     rows, t0 = [], time.time()
     with mp.Pool(a.workers) as pool:
@@ -74,10 +80,12 @@ def main():
             if (i + 1) % 50 == 0: print(f"  {i+1}/{len(jobs)}  {(time.time()-t0)/60:.1f} min", flush=True)
     with open(os.path.join(a.out, "runs.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
-    summarise(rows, methods)
+    for b in budgets:
+        print(f"\n===== budget {b} =====")
+        summarise([r for r in rows if r["budget"] in (b, "none")], methods, tag=b)
 
 
-def summarise(rows, methods):
+def summarise(rows, methods, tag=""):
     import numpy as np
     from collections import defaultdict
     try:
@@ -116,12 +124,14 @@ def summarise(rows, methods):
             fr = friedmanchisquare(*[per_field_mean[m] for m in names[1:]])
             lines.append(f"Friedman over {names[1:]}: chi2={fr.statistic:.2f} p={fr.pvalue:.4f}")
     txt = "\n".join(lines); print(txt)
-    open(os.path.join(a.out, "stats.txt"), "w").write(txt + "\n")
-    with open(os.path.join(a.out, "summary.csv"), "w", newline="") as fh:
-        w = csv.writer(fh); w.writerow(["method", "mean_ratio_to_B1", "std_over_fields", "best_seed_ratio", "seed_noise", "mean_sorties"])
+    open(os.path.join(a.out, f"stats_{tag}.txt"), "w").write(txt + "\n")
+    first = not os.path.exists(os.path.join(a.out, "summary.csv")) or tag == ""
+    with open(os.path.join(a.out, "summary.csv"), "a" if not first else "w", newline="") as fh:
+        w = csv.writer(fh)
+        if first: w.writerow(["budget", "method", "mean_ratio_to_B1", "std_over_fields", "best_seed_ratio", "seed_noise", "mean_sorties"])
         for m in names:
             rb = per_field_best[m] / np.array([b1[f] for f in fields])
-            w.writerow([m, f"{ratio_mean[m].mean():.5f}", f"{ratio_mean[m].std():.5f}", f"{rb.mean():.5f}", f"{noise[m]:.5f}", f"{np.mean(srt[m]):.3f}"])
+            w.writerow([tag, m, f"{ratio_mean[m].mean():.5f}", f"{ratio_mean[m].std():.5f}", f"{rb.mean():.5f}", f"{noise[m]:.5f}", f"{np.mean(srt[m]):.3f}"])
 
 
 if __name__ == "__main__":

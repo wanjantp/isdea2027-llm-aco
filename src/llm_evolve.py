@@ -159,14 +159,15 @@ def _eval_worker(code: str, fields_path: str, field_ids: list, template: str, ac
         except Exception as e:
             q.put({"status": "invalid_output" if "invalid output" in str(e) else "runtime", "error": str(e)[:300]}); return
         uav = UAVModel.load(aco_cfg["uav"]) if aco_cfg.get("uav") else UAVModel()
-        params = ACOParams(n_ants=aco_cfg["n_ants"], n_iters=aco_cfg["n_iters"])
+        params = ACOParams(n_ants=aco_cfg["n_ants"], n_iters=aco_cfg["n_iters"], greedy=aco_cfg.get("greedy", False))
+        seeds = list(range(aco_cfg.get("n_seeds", 1)))          # average over several ACO seeds to suppress noise
         swaths = swath_cache(fields_path, field_ids, width, cache_path)
         ratios, t_fields = [], []
         for fid in field_ids:
             t0 = time.time()
             C = Costs(swaths[fid], (0.0, 0.0), uav)
-            _, r, _ = ACO(params, fn, seed=aco_cfg.get("seed", 0), feature_mask=mask_for_template(template)).run(C)
-            ratios.append(r.energy_J / ref[fid]); t_fields.append(time.time() - t0)
+            es = [ACO(params, fn, seed=s, feature_mask=mask_for_template(template)).run(C)[1].energy_J for s in seeds]
+            ratios.append(float(np.mean(es)) / ref[fid]); t_fields.append(time.time() - t0)
         q.put({"status": "ok", "fitness": float(np.mean(ratios)), "per_field": ratios, "aco_s": round(sum(t_fields), 1)})
     except Exception as e:
         q.put({"status": "runtime", "error": (str(e) or type(e).__name__)[:300]})

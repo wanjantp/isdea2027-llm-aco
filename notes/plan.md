@@ -22,3 +22,9 @@
 - local main P1: qwen3.5:9b (latest small, think=false); anchor: qwen2.5-coder:7b (seed0 running); optional: qwen3.5:35b-a3b-coding
 - API main P2: openai/gpt-6-luna via OpenRouter; alt: anthropic/claude-haiku-5.5; parity: qwen/qwen3.5-9b; top ref: openai/gpt-6-sol (1 seed)
 - repair_attempts config added (default 0); think disabled for all models
+
+# Locked parameters (2026-10-13, tuned on validation split, 25 fields x 3 seeds, experiments/results/tune)
+- ACO: alpha=1.0, beta=3.0, rho=0.1 (best of 27-point grid; 0.9662 ratio to B1)
+- B3 w_turn: optimum 0.0 (=B2); kept 0.05 as best non-zero (0.9671). Trend: 0.05->0.9671, 0.1->0.9688, 0.25->0.9723, 0.5->0.9788, 1.0->0.9900
+- B4 (w_turn, w_depot): optimum (0,0); kept (0.05, 0.25) = 0.9678
+- Interpretation: linear hand-crafted terms (turn, depot) add nothing over distance-only ACO; adjacent swaths always need ~180 deg turns so turn_deg does not discriminate.

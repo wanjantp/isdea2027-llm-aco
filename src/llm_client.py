@@ -35,6 +35,8 @@ class LLMClient:
         self.provider, self.model = provider, model
         self.think, self.extra_body = think, extra_body or {}
         self.base_url = (base_url or ("http://localhost:11434" if provider == "ollama" else "https://api.openai.com/v1")).rstrip("/")
+        if provider == "ollama" and os.environ.get("OLLAMA_BASE_URL"):      # e.g. a user-level server on another port
+            self.base_url = os.environ["OLLAMA_BASE_URL"].rstrip("/")
         self.api_key = api_key or os.environ.get("LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
         self.temperature, self.max_tokens, self.timeout_s = temperature, max_tokens, timeout_s
         self.price_in, self.price_out = price_in, price_out
