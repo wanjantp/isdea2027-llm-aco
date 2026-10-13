@@ -32,3 +32,9 @@ paper/*.out
 paper/*.synctex.gz
 paper/*.toc
 swath_cache.pkl
+
+# secrets and local junk
+API_KEY.txt
+*.key
+_sync.tgz
+figures/fb_post.png

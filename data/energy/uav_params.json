@@ -1,13 +1,13 @@
 {
- "name": "placeholder_spray_drone",
+ "name": "DJI_Agras_T25_derived",
  "v_work": 5.0,
  "v_transit": 10.0,
- "P_work": 3500.0,
- "P_transit": 3000.0,
- "P_hover": 3200.0,
+ "P_work": 4300.0,
+ "P_transit": 3500.0,
+ "P_hover": 4300.0,
  "omega": 90.0,
  "c_turn": 1500.0,
- "E_battery": 2800000.0,
+ "E_battery": 2910000.0,
  "reserve_frac": 0.15,
  "E_swap": 60000.0,
  "t_swap": 180.0
