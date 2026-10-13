@@ -1,0 +1,111 @@
+{
+ "insights": "- prefer small distance and small turn angle\n- penalise candidates that do not fit the battery",
+ "best": {
+  "code": "import numpy as np\n\ndef heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):\n    return 1.0 / (dist_m + 0.1 * turn_deg + 1.0) ** 2.0 * np.where(fits > 0.5, 1.0, 0.2)",
+  "desc": "mock variant w=0.1 k=2.0",
+  "gen": 0,
+  "op": "init",
+  "idx": 2,
+  "raw": "{mock variant w=0.1 k=2.0}\n```python\nimport numpy as np\n\ndef heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):\n    return 1.0 / (dist_m + 0.1 * turn_deg + 1.0) ** 2.0 * np.where(fits > 0.5, 1.0, 0.2)\n```",
+  "status": "ok",
+  "fitness": 0.9352626289385162,
+  "per_field": [
+   0.8189739899746287,
+   0.9796477694065207,
+   1.007166127434399
+  ],
+  "eval_s": 2.5830297470092773
+ },
+ "population": [
+  {
+   "code": "import numpy as np\n\ndef heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):\n    return 1.0 / (dist_m + 0.1 * turn_deg + 1.0) ** 2.0 * np.where(fits > 0.5, 1.0, 0.2)",
+   "desc": "mock variant w=0.1 k=2.0",
+   "gen": 0,
+   "op": "init",
+   "idx": 2,
+   "raw": "{mock variant w=0.1 k=2.0}\n```python\nimport numpy as np\n\ndef heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):\n    return 1.0 / (dist_m + 0.1 * turn_deg + 1.0) ** 2.0 * np.where(fits > 0.5, 1.0, 0.2)\n```",
+   "status": "ok",
+   "fitness": 0.9352626289385162,
+   "per_field": [
+    0.8189739899746287,
+    0.9796477694065207,
+    1.007166127434399
+   ],
+   "eval_s": 2.5830297470092773
+  },
+  {
+   "code": "import numpy as np\n\ndef heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):\n    \"\"\"Return a positive desirability score for each candidate swath (numpy arrays, same length).\n    dist_m: distance to candidate start (m); turn_deg: turning needed (deg); swath_len_m: candidate length (m);\n    energy_left_frac: battery fraction left (scalar 0..1); depot_dist_m: distance from candidate end to depot (m);\n    fits: 1.0 if the candidate fits in the remaining battery, else 0.0.\"\"\"\n    return 1.0 / (dist_m + 1.0)",
+   "desc": "seed: inverse distance",
+   "gen": 0,
+   "op": "seed",
+   "idx": 0,
+   "status": "ok",
+   "fitness": 0.9436268201675168,
+   "per_field": [
+    0.8251559626608833,
+    0.994059139531774,
+    1.0116653583098933
+   ],
+   "eval_s": 2.4329519271850586
+  },
+  {
+   "code": "import numpy as np\n\ndef heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):\n    return 1.0 / (dist_m + 0.1 * turn_deg + 1.0) ** 1.0 * np.where(fits > 0.5, 1.0, 0.2)",
+   "desc": "mock variant w=0.1 k=1.0",
+   "gen": 1,
+   "op": "mutation",
+   "idx": 6,
+   "raw": "{mock variant w=0.1 k=1.0}\n```python\nimport numpy as np\n\ndef heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):\n    return 1.0 / (dist_m + 0.1 * turn_deg + 1.0) ** 1.0 * np.where(fits > 0.5, 1.0, 0.2)\n```",
+   "status": "ok",
+   "fitness": 0.971544643669047,
+   "per_field": [
+    0.840767806693565,
+    1.0420922638286696,
+    1.031773860484906
+   ],
+   "eval_s": 2.64473819732666
+  }
+ ],
+ "llm": {
+  "provider": "mock",
+  "model": "mock",
+  "calls": 14,
+  "prompt_tokens": 1400,
+  "completion_tokens": 1120,
+  "seconds": 0.0009541511535644531,
+  "cost_usd": 0.0
+ },
+ "status_counts": {
+  "ok": 6,
+  "syntax": 0,
+  "runtime": 0,
+  "invalid_output": 3,
+  "timeout": 0
+ },
+ "elapsed_s": 10.413429737091064,
+ "n_generated": 8,
+ "config": {
+  "llm": {
+   "provider": "mock",
+   "model": "mock"
+  },
+  "template": "T3",
+  "train_fields": "data/synthetic/synthetic_train_seed0.geojson",
+  "train_ids": [
+   "SYN-00-000",
+   "SYN-00-001",
+   "SYN-00-002"
+  ],
+  "swath_width": 5.0,
+  "aco_eval": {
+   "n_ants": 8,
+   "n_iters": 10,
+   "seed": 0,
+   "uav": "data/energy/uav_params.json"
+  },
+  "eval_timeout_s": 180,
+  "budget": 8,
+  "pop_size": 3,
+  "n_workers": 3
+ },
+ "seed": 0
+}

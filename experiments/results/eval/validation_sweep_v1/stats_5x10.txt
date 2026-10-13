@@ -1,0 +1,32 @@
+fields=30  seeds/method=5
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         3.03
+B2_distance                            0.9807          0.0437          0.9766     0.0029         2.95
+B3_dist_turn                           0.9902          0.0448          0.9843     0.0045         2.96
+B4_dist_turn_battery                   0.9906          0.0440          0.9836     0.0049         2.91
+P1_qwen35_v3                           0.9733          0.0438          0.9711     0.0017         2.89
+P1_7b_v1                               0.9703          0.0451          0.9678     0.0022         2.92
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B3_dist_turn                p=0.0000  wins 29/30  mean diff -0.78% of B1
+  B2_distance                < B4_dist_turn_battery        p=0.0000  wins 29/30  mean diff -0.76% of B1
+  B2_distance                < P1_qwen35_v3                p=1.0000  wins 2/30  mean diff +0.62% of B1
+  B2_distance                < P1_7b_v1                    p=1.0000  wins 2/30  mean diff +0.94% of B1
+  B3_dist_turn               < B2_distance                 p=1.0000  wins 1/30  mean diff +0.78% of B1
+  B3_dist_turn               < B4_dist_turn_battery        p=0.6500  wins 13/30  mean diff +0.02% of B1
+  B3_dist_turn               < P1_qwen35_v3                p=1.0000  wins 1/30  mean diff +1.40% of B1
+  B3_dist_turn               < P1_7b_v1                    p=1.0000  wins 0/30  mean diff +1.73% of B1
+  B4_dist_turn_battery       < B2_distance                 p=1.0000  wins 1/30  mean diff +0.76% of B1
+  B4_dist_turn_battery       < B3_dist_turn                p=0.3576  wins 17/30  mean diff -0.02% of B1
+  B4_dist_turn_battery       < P1_qwen35_v3                p=1.0000  wins 0/30  mean diff +1.38% of B1
+  B4_dist_turn_battery       < P1_7b_v1                    p=1.0000  wins 0/30  mean diff +1.71% of B1
+  P1_qwen35_v3               < B2_distance                 p=0.0000  wins 26/30  mean diff -0.62% of B1
+  P1_qwen35_v3               < B3_dist_turn                p=0.0000  wins 29/30  mean diff -1.40% of B1
+  P1_qwen35_v3               < B4_dist_turn_battery        p=0.0000  wins 30/30  mean diff -1.38% of B1
+  P1_qwen35_v3               < P1_7b_v1                    p=0.9108  wins 12/30  mean diff +0.33% of B1
+  P1_7b_v1                   < B2_distance                 p=0.0000  wins 26/30  mean diff -0.94% of B1
+  P1_7b_v1                   < B3_dist_turn                p=0.0000  wins 30/30  mean diff -1.73% of B1
+  P1_7b_v1                   < B4_dist_turn_battery        p=0.0000  wins 30/30  mean diff -1.71% of B1
+  P1_7b_v1                   < P1_qwen35_v3                p=0.0892  wins 15/30  mean diff -0.33% of B1
+Friedman over ['B2_distance', 'B3_dist_turn', 'B4_dist_turn_battery', 'P1_qwen35_v3', 'P1_7b_v1']: chi2=98.24 p=0.0000

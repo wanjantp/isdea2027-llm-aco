@@ -1,0 +1,4 @@
+method,mean_ratio_to_B1,std_over_fields,best_seed_ratio,seed_noise,mean_sorties
+B1_boustrophedon,1.00000,0.00000,1.00000,0.00000,3.567
+B2_distance,0.97930,0.05122,0.97647,0.00205,3.407
+P1_7b,0.97259,0.05096,0.97103,0.00103,3.400

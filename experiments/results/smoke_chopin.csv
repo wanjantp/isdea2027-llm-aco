@@ -1,0 +1,13 @@
+field_id,area_ha,n_swaths,method,seed,energy_MJ,time_min,sorties,work_m,transit_m,turn_deg,feasible,cpu_s
+TH-KK-01,1.02,14,B1_boustrophedon,-1,1.7099,10.9,1,2025,433,2340,True,0.0
+TH-KK-01,1.02,14,B2_distance,0,1.6574,10.61,1,2025,258,2340,True,0.3
+TH-KK-01,1.02,14,B3_dist_turn,0,1.6824,10.75,1,2025,342,2340,True,0.2
+TH-KK-01,1.02,14,B4_dist_turn_battery,0,1.6903,10.8,1,2025,368,2340,True,0.2
+TH-KK-02,1.13,20,B1_boustrophedon,-1,1.9134,11.83,1,2286,344,3420,True,0.0
+TH-KK-02,1.13,20,B2_distance,0,1.8973,11.74,1,2286,290,3420,True,0.3
+TH-KK-02,1.13,20,B3_dist_turn,0,1.969,12.13,1,2286,518,3499,True,0.3
+TH-KK-02,1.13,20,B4_dist_turn_battery,0,1.9501,12.03,1,2286,466,3420,True,0.4
+TH-KK-03,1.28,34,B1_boustrophedon,-1,2.2435,13.39,1,2533,526,5760,True,0.0
+TH-KK-03,1.28,34,B2_distance,0,2.236,13.32,1,2533,449,6115,True,0.5
+TH-KK-03,1.28,34,B3_dist_turn,0,2.3698,14.07,1,2533,894,6122,True,0.6
+TH-KK-03,1.28,34,B4_dist_turn_battery,0,2.4091,14.28,1,2533,1004,6264,True,0.7
