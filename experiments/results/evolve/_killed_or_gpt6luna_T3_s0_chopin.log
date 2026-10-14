@@ -1,0 +1,25 @@
+nohup: ignoring input
+seed fitness 0.9792
+gen 0: generated 10, valid 1, best 0.9792
+gen 1: generated 15/300, best 0.9792 (gen 0), status {'ok': 1, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 15}, llm 15 calls 5441 out-tok 0.004 USD, 12.2 min
+gen 2: generated 20/300, best 0.9792 (gen 0), status {'ok': 2, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 19}, llm 20 calls 7140 out-tok 0.005 USD, 15.6 min
+gen 3: generated 30/300, best 0.9792 (gen 0), status {'ok': 3, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 28}, llm 36 calls 10615 out-tok 0.008 USD, 22.5 min
+gen 4: generated 40/300, best 0.9792 (gen 0), status {'ok': 4, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 37}, llm 52 calls 14114 out-tok 0.011 USD, 29.5 min
+gen 5: generated 50/300, best 0.9792 (gen 0), status {'ok': 6, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 44}, llm 68 calls 17716 out-tok 0.015 USD, 35.5 min
+gen 6: generated 60/300, best 0.9792 (gen 0), status {'ok': 7, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 52}, llm 84 calls 21533 out-tok 0.018 USD, 42.6 min
+gen 7: generated 70/300, best 0.9792 (gen 0), status {'ok': 9, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 60}, llm 100 calls 25255 out-tok 0.022 USD, 49.7 min
+gen 8: generated 80/300, best 0.9792 (gen 0), status {'ok': 9, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 70}, llm 116 calls 29784 out-tok 0.025 USD, 56.7 min
+gen 9: generated 90/300, best 0.9792 (gen 0), status {'ok': 11, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 78}, llm 132 calls 33591 out-tok 0.029 USD, 63.5 min
+gen 10: generated 100/300, best 0.9792 (gen 0), status {'ok': 11, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 88}, llm 148 calls 37791 out-tok 0.032 USD, 70.5 min
+gen 11: generated 110/300, best 0.9792 (gen 0), status {'ok': 13, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 96}, llm 164 calls 40866 out-tok 0.035 USD, 77.3 min
+gen 12: generated 120/300, best 0.9792 (gen 12), status {'ok': 14, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 105}, llm 180 calls 44065 out-tok 0.038 USD, 84.7 min
+gen 13: generated 130/300, best 0.9792 (gen 12), status {'ok': 15, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 114}, llm 196 calls 47858 out-tok 0.042 USD, 91.8 min
+gen 14: generated 140/300, best 0.9792 (gen 12), status {'ok': 16, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 123}, llm 212 calls 53041 out-tok 0.046 USD, 99.1 min
+gen 15: generated 150/300, best 0.9792 (gen 12), status {'ok': 17, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 132}, llm 228 calls 57605 out-tok 0.049 USD, 106.2 min
+gen 16: generated 160/300, best 0.9792 (gen 12), status {'ok': 21, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 138}, llm 244 calls 61614 out-tok 0.053 USD, 112.3 min
+gen 17: generated 170/300, best 0.9792 (gen 12), status {'ok': 22, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 147}, llm 260 calls 65525 out-tok 0.056 USD, 119.1 min
+gen 18: generated 180/300, best 0.9792 (gen 12), status {'ok': 25, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 154}, llm 276 calls 69571 out-tok 0.060 USD, 125.7 min
+gen 19: generated 190/300, best 0.9792 (gen 12), status {'ok': 25, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 164}, llm 292 calls 74564 out-tok 0.064 USD, 132.8 min
+gen 20: generated 200/300, best 0.9792 (gen 12), status {'ok': 28, 'syntax': 2, 'runtime': 0, 'invalid_output': 0, 'timeout': 171}, llm 308 calls 78807 out-tok 0.067 USD, 139.6 min
+/home/panupong/anaconda3/envs/isdea/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

@@ -1,0 +1,67 @@
+seed fitness 0.9323
+gen 0: generated 12, valid 9, best 0.9315
+gen 1: generated 24/600, best 0.9245 (gen 1), status {'ok': 21, 'syntax': 1, 'runtime': 2, 'invalid_output': 1, 'timeout': 0}, eval 6s/heur, llm 31 calls 7277 out-tok 0.000 USD, 1.9 min
+gen 2: generated 36/600, best 0.9223 (gen 2), status {'ok': 33, 'syntax': 1, 'runtime': 2, 'invalid_output': 1, 'timeout': 0}, eval 6s/heur, llm 50 calls 10984 out-tok 0.000 USD, 2.9 min
+gen 3: generated 48/600, best 0.9195 (gen 3), status {'ok': 44, 'syntax': 2, 'runtime': 2, 'invalid_output': 1, 'timeout': 0}, eval 5s/heur, llm 69 calls 15972 out-tok 0.000 USD, 4.2 min
+gen 4: generated 60/600, best 0.9186 (gen 4), status {'ok': 55, 'syntax': 2, 'runtime': 2, 'invalid_output': 2, 'timeout': 0}, eval 5s/heur, llm 88 calls 20014 out-tok 0.000 USD, 5.3 min
+gen 5: generated 72/600, best 0.9186 (gen 4), status {'ok': 67, 'syntax': 2, 'runtime': 2, 'invalid_output': 2, 'timeout': 0}, eval 6s/heur, llm 107 calls 23602 out-tok 0.000 USD, 6.2 min
+gen 6: generated 84/600, best 0.9186 (gen 4), status {'ok': 74, 'syntax': 2, 'runtime': 7, 'invalid_output': 2, 'timeout': 0}, eval 4s/heur, llm 126 calls 26765 out-tok 0.000 USD, 7.1 min
+gen 7: generated 96/600, best 0.9175 (gen 7), status {'ok': 86, 'syntax': 2, 'runtime': 7, 'invalid_output': 2, 'timeout': 0}, eval 6s/heur, llm 145 calls 30115 out-tok 0.000 USD, 8.1 min
+gen 8: generated 108/600, best 0.9175 (gen 7), status {'ok': 97, 'syntax': 2, 'runtime': 7, 'invalid_output': 3, 'timeout': 0}, eval 6s/heur, llm 164 calls 34242 out-tok 0.000 USD, 9.2 min
+gen 9: generated 120/600, best 0.9175 (gen 7), status {'ok': 107, 'syntax': 2, 'runtime': 8, 'invalid_output': 4, 'timeout': 0}, eval 5s/heur, llm 183 calls 37952 out-tok 0.000 USD, 10.2 min
+gen 10: generated 132/600, best 0.9168 (gen 10), status {'ok': 118, 'syntax': 2, 'runtime': 8, 'invalid_output': 5, 'timeout': 0}, eval 5s/heur, llm 202 calls 41592 out-tok 0.000 USD, 11.2 min
+gen 11: generated 144/600, best 0.9168 (gen 10), status {'ok': 130, 'syntax': 2, 'runtime': 8, 'invalid_output': 5, 'timeout': 0}, eval 6s/heur, llm 221 calls 45485 out-tok 0.000 USD, 12.3 min
+gen 12: generated 156/600, best 0.9168 (gen 10), status {'ok': 142, 'syntax': 2, 'runtime': 8, 'invalid_output': 5, 'timeout': 0}, eval 6s/heur, llm 240 calls 49187 out-tok 0.000 USD, 13.3 min
+gen 13: generated 168/600, best 0.9168 (gen 10), status {'ok': 150, 'syntax': 2, 'runtime': 12, 'invalid_output': 5, 'timeout': 0}, eval 4s/heur, llm 259 calls 52932 out-tok 0.000 USD, 14.3 min
+gen 14: generated 180/600, best 0.9168 (gen 10), status {'ok': 159, 'syntax': 2, 'runtime': 15, 'invalid_output': 5, 'timeout': 0}, eval 5s/heur, llm 278 calls 56757 out-tok 0.000 USD, 15.3 min
+gen 15: generated 192/600, best 0.9168 (gen 10), status {'ok': 171, 'syntax': 2, 'runtime': 15, 'invalid_output': 5, 'timeout': 0}, eval 6s/heur, llm 297 calls 60711 out-tok 0.000 USD, 16.4 min
+gen 16: generated 204/600, best 0.9168 (gen 10), status {'ok': 182, 'syntax': 2, 'runtime': 15, 'invalid_output': 6, 'timeout': 0}, eval 5s/heur, llm 316 calls 64457 out-tok 0.000 USD, 17.4 min
+gen 17: generated 216/600, best 0.9168 (gen 10), status {'ok': 194, 'syntax': 2, 'runtime': 15, 'invalid_output': 6, 'timeout': 0}, eval 6s/heur, llm 335 calls 68474 out-tok 0.000 USD, 18.5 min
+gen 18: generated 228/600, best 0.9168 (gen 10), status {'ok': 206, 'syntax': 2, 'runtime': 15, 'invalid_output': 6, 'timeout': 0}, eval 6s/heur, llm 354 calls 72435 out-tok 0.000 USD, 19.6 min
+gen 19: generated 240/600, best 0.9168 (gen 10), status {'ok': 218, 'syntax': 2, 'runtime': 15, 'invalid_output': 6, 'timeout': 0}, eval 6s/heur, llm 373 calls 76070 out-tok 0.000 USD, 20.6 min
+gen 20: generated 252/600, best 0.9168 (gen 10), status {'ok': 230, 'syntax': 2, 'runtime': 15, 'invalid_output': 6, 'timeout': 0}, eval 6s/heur, llm 392 calls 80147 out-tok 0.000 USD, 21.7 min
+gen 21: generated 264/600, best 0.9168 (gen 10), status {'ok': 241, 'syntax': 2, 'runtime': 15, 'invalid_output': 7, 'timeout': 0}, eval 5s/heur, llm 411 calls 85002 out-tok 0.000 USD, 22.9 min
+gen 22: generated 276/600, best 0.9168 (gen 10), status {'ok': 252, 'syntax': 2, 'runtime': 15, 'invalid_output': 8, 'timeout': 0}, eval 5s/heur, llm 430 calls 88850 out-tok 0.000 USD, 24.0 min
+gen 23: generated 288/600, best 0.9168 (gen 10), status {'ok': 263, 'syntax': 2, 'runtime': 16, 'invalid_output': 8, 'timeout': 0}, eval 5s/heur, llm 449 calls 93610 out-tok 0.000 USD, 25.2 min
+gen 24: generated 300/600, best 0.9168 (gen 24), status {'ok': 275, 'syntax': 2, 'runtime': 16, 'invalid_output': 8, 'timeout': 0}, eval 6s/heur, llm 468 calls 97505 out-tok 0.000 USD, 26.2 min
+gen 25: generated 312/600, best 0.9168 (gen 24), status {'ok': 287, 'syntax': 2, 'runtime': 16, 'invalid_output': 8, 'timeout': 0}, eval 6s/heur, llm 487 calls 101729 out-tok 0.000 USD, 27.3 min
+gen 26: generated 324/600, best 0.9168 (gen 24), status {'ok': 298, 'syntax': 2, 'runtime': 16, 'invalid_output': 9, 'timeout': 0}, eval 5s/heur, llm 506 calls 105561 out-tok 0.000 USD, 28.4 min
+gen 27: generated 336/600, best 0.9168 (gen 24), status {'ok': 310, 'syntax': 2, 'runtime': 16, 'invalid_output': 9, 'timeout': 0}, eval 6s/heur, llm 525 calls 109870 out-tok 0.000 USD, 29.5 min
+gen 28: generated 348/600, best 0.9168 (gen 24), status {'ok': 322, 'syntax': 2, 'runtime': 16, 'invalid_output': 9, 'timeout': 0}, eval 6s/heur, llm 544 calls 113700 out-tok 0.000 USD, 30.5 min
+gen 29: generated 360/600, best 0.9168 (gen 24), status {'ok': 334, 'syntax': 2, 'runtime': 16, 'invalid_output': 9, 'timeout': 0}, eval 6s/heur, llm 563 calls 117998 out-tok 0.000 USD, 31.7 min
+gen 30: generated 372/600, best 0.9168 (gen 24), status {'ok': 346, 'syntax': 2, 'runtime': 16, 'invalid_output': 9, 'timeout': 0}, eval 6s/heur, llm 582 calls 122974 out-tok 0.000 USD, 32.9 min
+gen 31: generated 384/600, best 0.9168 (gen 24), status {'ok': 358, 'syntax': 2, 'runtime': 16, 'invalid_output': 9, 'timeout': 0}, eval 6s/heur, llm 601 calls 127672 out-tok 0.000 USD, 34.2 min
+gen 32: generated 396/600, best 0.9168 (gen 24), status {'ok': 370, 'syntax': 2, 'runtime': 16, 'invalid_output': 9, 'timeout': 0}, eval 6s/heur, llm 620 calls 132226 out-tok 0.000 USD, 35.4 min
+gen 33: generated 408/600, best 0.9168 (gen 24), status {'ok': 381, 'syntax': 2, 'runtime': 16, 'invalid_output': 10, 'timeout': 0}, eval 6s/heur, llm 639 calls 136339 out-tok 0.000 USD, 36.5 min
+gen 34: generated 420/600, best 0.9168 (gen 24), status {'ok': 392, 'syntax': 2, 'runtime': 16, 'invalid_output': 11, 'timeout': 0}, eval 6s/heur, llm 658 calls 140485 out-tok 0.000 USD, 37.6 min
+gen 35: generated 432/600, best 0.9168 (gen 24), status {'ok': 403, 'syntax': 2, 'runtime': 16, 'invalid_output': 12, 'timeout': 0}, eval 6s/heur, llm 677 calls 144850 out-tok 0.000 USD, 38.7 min
+gen 36: generated 444/600, best 0.9168 (gen 24), status {'ok': 408, 'syntax': 3, 'runtime': 22, 'invalid_output': 12, 'timeout': 0}, eval 3s/heur, llm 696 calls 148548 out-tok 0.000 USD, 39.7 min
+gen 37: generated 456/600, best 0.9168 (gen 24), status {'ok': 415, 'syntax': 3, 'runtime': 27, 'invalid_output': 12, 'timeout': 0}, eval 4s/heur, llm 715 calls 152571 out-tok 0.000 USD, 40.7 min
+gen 38: generated 468/600, best 0.9168 (gen 24), status {'ok': 421, 'syntax': 3, 'runtime': 32, 'invalid_output': 13, 'timeout': 0}, eval 3s/heur, llm 734 calls 156643 out-tok 0.000 USD, 41.7 min
+gen 39: generated 480/600, best 0.9168 (gen 24), status {'ok': 433, 'syntax': 3, 'runtime': 32, 'invalid_output': 13, 'timeout': 0}, eval 6s/heur, llm 753 calls 161390 out-tok 0.000 USD, 42.9 min
+gen 40: generated 492/600, best 0.9168 (gen 24), status {'ok': 445, 'syntax': 3, 'runtime': 32, 'invalid_output': 13, 'timeout': 0}, eval 6s/heur, llm 772 calls 165518 out-tok 0.000 USD, 44.0 min
+gen 41: generated 504/600, best 0.9168 (gen 24), status {'ok': 457, 'syntax': 3, 'runtime': 32, 'invalid_output': 13, 'timeout': 0}, eval 6s/heur, llm 791 calls 169824 out-tok 0.000 USD, 45.2 min
+gen 42: generated 516/600, best 0.9168 (gen 24), status {'ok': 469, 'syntax': 3, 'runtime': 32, 'invalid_output': 13, 'timeout': 0}, eval 6s/heur, llm 810 calls 173790 out-tok 0.000 USD, 46.2 min
+gen 43: generated 528/600, best 0.9168 (gen 24), status {'ok': 481, 'syntax': 3, 'runtime': 32, 'invalid_output': 13, 'timeout': 0}, eval 6s/heur, llm 829 calls 177848 out-tok 0.000 USD, 47.3 min
+gen 44: generated 540/600, best 0.9168 (gen 24), status {'ok': 492, 'syntax': 3, 'runtime': 33, 'invalid_output': 13, 'timeout': 0}, eval 6s/heur, llm 848 calls 182554 out-tok 0.000 USD, 48.5 min
+gen 45: generated 552/600, best 0.9168 (gen 24), status {'ok': 504, 'syntax': 3, 'runtime': 33, 'invalid_output': 13, 'timeout': 0}, eval 6s/heur, llm 867 calls 186940 out-tok 0.000 USD, 49.7 min
+gen 46: generated 564/600, best 0.9168 (gen 24), status {'ok': 515, 'syntax': 3, 'runtime': 33, 'invalid_output': 14, 'timeout': 0}, eval 6s/heur, llm 886 calls 191339 out-tok 0.000 USD, 50.9 min
+gen 47: generated 576/600, best 0.9168 (gen 24), status {'ok': 526, 'syntax': 3, 'runtime': 33, 'invalid_output': 15, 'timeout': 0}, eval 6s/heur, llm 905 calls 195298 out-tok 0.000 USD, 51.9 min
+gen 48: generated 588/600, best 0.9168 (gen 24), status {'ok': 538, 'syntax': 3, 'runtime': 33, 'invalid_output': 15, 'timeout': 0}, eval 6s/heur, llm 924 calls 199922 out-tok 0.000 USD, 53.1 min
+gen 49: generated 600/600, best 0.9168 (gen 24), status {'ok': 550, 'syntax': 3, 'runtime': 33, 'invalid_output': 15, 'timeout': 0}, eval 6s/heur, llm 943 calls 203377 out-tok 0.000 USD, 54.1 min
+DONE best fitness 0.9168: Multiplicative penalty combining squared distance deviation from adjacency and squared angular deviation from 180 degrees to enforce strict geometric continuity
+import numpy as np
+
+def heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):
+    # Penalize non-adjacent hops with a steep quadratic term around 5m threshold
+    dist_term = ((dist_m - 5.0) / 10.0) ** 2
+    
+    # Penalize deviation from ideal 180-degree reversal; normalize by swath length to scale cost
+    rad_turn = np.deg2rad(turn_deg)
+    turn_term = (np.abs(rad_turn - np.pi) / np.pi) * (1.0 / (swath_len_m + 1e-6))
+    
+    # Combine penalties multiplicatively to enforce both constraints simultaneously
+    combined_penalty = dist_term + turn_term + 1e-3
+    
+    # Invert and scale to ensure strictly positive finite floats with reasonable magnitude
+    return 1.0 / (combined_penalty * np.pi)

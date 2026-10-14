@@ -1,0 +1,49 @@
+nohup: ignoring input
+seed fitness 0.9792
+<llm_heuristic>:8: RuntimeWarning: divide by zero encountered in power
+gen 0: generated 10, valid 4, best 0.9792
+<llm_heuristic>:8: RuntimeWarning: divide by zero encountered in power
+<llm_heuristic>:8: RuntimeWarning: divide by zero encountered in power
+gen 1: generated 20/300, best 0.9755 (gen 1), status {'ok': 10, 'syntax': 1, 'runtime': 2, 'invalid_output': 8, 'timeout': 0}, llm 26 calls 5467 out-tok 0.000 USD, 6.8 min
+<llm_heuristic>:8: RuntimeWarning: divide by zero encountered in power
+<llm_heuristic>:8: RuntimeWarning: divide by zero encountered in power
+gen 2: generated 30/300, best 0.9743 (gen 2), status {'ok': 17, 'syntax': 1, 'runtime': 4, 'invalid_output': 9, 'timeout': 0}, llm 42 calls 9028 out-tok 0.000 USD, 10.2 min
+<llm_heuristic>:8: RuntimeWarning: divide by zero encountered in power
+gen 3: generated 40/300, best 0.9743 (gen 2), status {'ok': 26, 'syntax': 2, 'runtime': 4, 'invalid_output': 9, 'timeout': 0}, llm 58 calls 12504 out-tok 0.000 USD, 15.2 min
+gen 4: generated 50/300, best 0.9743 (gen 2), status {'ok': 35, 'syntax': 3, 'runtime': 4, 'invalid_output': 9, 'timeout': 0}, llm 74 calls 16493 out-tok 0.000 USD, 20.1 min
+gen 5: generated 60/300, best 0.9741 (gen 5), status {'ok': 42, 'syntax': 4, 'runtime': 4, 'invalid_output': 11, 'timeout': 0}, llm 90 calls 20633 out-tok 0.000 USD, 23.4 min
+gen 6: generated 70/300, best 0.9736 (gen 6), status {'ok': 50, 'syntax': 4, 'runtime': 5, 'invalid_output': 12, 'timeout': 0}, llm 106 calls 24640 out-tok 0.000 USD, 26.8 min
+gen 7: generated 80/300, best 0.9736 (gen 6), status {'ok': 59, 'syntax': 4, 'runtime': 5, 'invalid_output': 13, 'timeout': 0}, llm 122 calls 29077 out-tok 0.000 USD, 32.0 min
+gen 8: generated 90/300, best 0.9736 (gen 6), status {'ok': 69, 'syntax': 4, 'runtime': 5, 'invalid_output': 13, 'timeout': 0}, llm 138 calls 33391 out-tok 0.000 USD, 37.3 min
+gen 9: generated 100/300, best 0.9729 (gen 9), status {'ok': 79, 'syntax': 4, 'runtime': 5, 'invalid_output': 13, 'timeout': 0}, llm 154 calls 37503 out-tok 0.000 USD, 42.6 min
+gen 10: generated 110/300, best 0.9729 (gen 9), status {'ok': 86, 'syntax': 5, 'runtime': 6, 'invalid_output': 14, 'timeout': 0}, llm 170 calls 40915 out-tok 0.000 USD, 46.0 min
+gen 11: generated 120/300, best 0.9728 (gen 11), status {'ok': 95, 'syntax': 6, 'runtime': 6, 'invalid_output': 14, 'timeout': 0}, llm 186 calls 44527 out-tok 0.000 USD, 51.4 min
+gen 12: generated 130/300, best 0.9728 (gen 12), status {'ok': 97, 'syntax': 6, 'runtime': 6, 'invalid_output': 14, 'timeout': 8}, llm 202 calls 48354 out-tok 0.000 USD, 57.5 min
+gen 13: generated 140/300, best 0.9725 (gen 13), status {'ok': 100, 'syntax': 6, 'runtime': 7, 'invalid_output': 14, 'timeout': 14}, llm 218 calls 52158 out-tok 0.000 USD, 63.8 min
+gen 14: generated 150/300, best 0.9725 (gen 13), status {'ok': 101, 'syntax': 6, 'runtime': 8, 'invalid_output': 14, 'timeout': 22}, llm 234 calls 55893 out-tok 0.000 USD, 69.8 min
+gen 15: generated 160/300, best 0.9725 (gen 13), status {'ok': 102, 'syntax': 7, 'runtime': 8, 'invalid_output': 14, 'timeout': 30}, llm 250 calls 59438 out-tok 0.000 USD, 76.1 min
+gen 16: generated 170/300, best 0.9725 (gen 13), status {'ok': 103, 'syntax': 7, 'runtime': 8, 'invalid_output': 15, 'timeout': 38}, llm 266 calls 62894 out-tok 0.000 USD, 82.8 min
+gen 17: generated 180/300, best 0.9725 (gen 13), status {'ok': 105, 'syntax': 7, 'runtime': 8, 'invalid_output': 15, 'timeout': 46}, llm 282 calls 66339 out-tok 0.000 USD, 89.0 min
+gen 18: generated 190/300, best 0.9725 (gen 18), status {'ok': 109, 'syntax': 7, 'runtime': 8, 'invalid_output': 20, 'timeout': 47}, llm 298 calls 69440 out-tok 0.000 USD, 92.6 min
+gen 19: generated 200/300, best 0.9725 (gen 18), status {'ok': 111, 'syntax': 7, 'runtime': 8, 'invalid_output': 20, 'timeout': 55}, llm 314 calls 72870 out-tok 0.000 USD, 98.6 min
+gen 20: generated 210/300, best 0.9725 (gen 18), status {'ok': 111, 'syntax': 7, 'runtime': 11, 'invalid_output': 20, 'timeout': 62}, llm 330 calls 76210 out-tok 0.000 USD, 102.3 min
+gen 21: generated 220/300, best 0.9725 (gen 18), status {'ok': 116, 'syntax': 7, 'runtime': 12, 'invalid_output': 20, 'timeout': 66}, llm 346 calls 79522 out-tok 0.000 USD, 108.3 min
+gen 22: generated 230/300, best 0.9725 (gen 18), status {'ok': 122, 'syntax': 7, 'runtime': 12, 'invalid_output': 21, 'timeout': 69}, llm 362 calls 82835 out-tok 0.000 USD, 114.2 min
+gen 23: generated 240/300, best 0.9725 (gen 18), status {'ok': 123, 'syntax': 7, 'runtime': 13, 'invalid_output': 22, 'timeout': 76}, llm 378 calls 86190 out-tok 0.000 USD, 118.0 min
+gen 24: generated 250/300, best 0.9725 (gen 18), status {'ok': 124, 'syntax': 7, 'runtime': 14, 'invalid_output': 22, 'timeout': 84}, llm 394 calls 89359 out-tok 0.000 USD, 124.3 min
+gen 25: generated 260/300, best 0.9725 (gen 18), status {'ok': 125, 'syntax': 7, 'runtime': 14, 'invalid_output': 22, 'timeout': 93}, llm 410 calls 92661 out-tok 0.000 USD, 130.9 min
+gen 26: generated 270/300, best 0.9724 (gen 26), status {'ok': 130, 'syntax': 7, 'runtime': 14, 'invalid_output': 22, 'timeout': 98}, llm 426 calls 96306 out-tok 0.000 USD, 137.3 min
+gen 27: generated 280/300, best 0.9724 (gen 26), status {'ok': 135, 'syntax': 8, 'runtime': 14, 'invalid_output': 22, 'timeout': 102}, llm 442 calls 99823 out-tok 0.000 USD, 143.2 min
+gen 28: generated 290/300, best 0.9724 (gen 26), status {'ok': 141, 'syntax': 8, 'runtime': 14, 'invalid_output': 24, 'timeout': 104}, llm 458 calls 103457 out-tok 0.000 USD, 147.1 min
+gen 29: generated 300/300, best 0.9722 (gen 29), status {'ok': 142, 'syntax': 9, 'runtime': 14, 'invalid_output': 24, 'timeout': 112}, llm 474 calls 106846 out-tok 0.000 USD, 153.1 min
+DONE best fitness 0.9722: Improved heuristic incorporating additional balance factors for parallel swaths and more aggressive dynamic turn penalties
+import numpy as np
+
+def heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac, depot_dist_m, fits):
+    base_score = dist_m**-2 * np.exp(-turn_deg / 80)  # Adjusted exponential decay for sharp turns
+    fit_bonus = np.where(fits > 0.95, 4.5, 1.6)
+    next_swath_proximity = np.maximum(0.3, 1 - (dist_m / 250))  # Enhanced proximity to depot with adjusted floor and ceiling
+    energy_usage_penalty = (energy_left_frac + 0.1) ** (-4.0)  # Slightly more aggressive penalty for battery usage
+    parallel_balance = np.where(np.abs(turn_deg) < 20, 4.5, 0.7)  # Enhanced balance for nearly parallel swaths
+    dynamic_turn_cost = 1 + (energy_left_frac * depot_dist_m / 800) * turn_deg**0.6  # More aggressive adaptive turn penalty
+    return base_score * fit_bonus * next_swath_proximity * energy_usage_penalty * parallel_balance * dynamic_turn_cost

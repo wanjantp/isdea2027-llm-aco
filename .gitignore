@@ -38,3 +38,4 @@ API_KEY.txt
 *.key
 _sync.tgz
 figures/fb_post.png
+!experiments/results/evolve/*.log

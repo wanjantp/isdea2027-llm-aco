@@ -1,0 +1,52 @@
+nohup: ignoring input
+Process Process-1:
+Traceback (most recent call last):
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/panupong/ISDEA/src/llm_evolve.py", line 168, in _eval_worker
+    _, r, _ = ACO(params, fn, seed=aco_cfg.get("seed", 0), feature_mask=mask_for_template(template)).run(C)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/panupong/ISDEA/src/aco.py", line 122, in run
+    o = self._construct(tau, tau0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/panupong/ISDEA/src/aco.py", line 79, in _construct
+    fits = (need <= rem).astype(float)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/panupong/ISDEA/src/llm_evolve.py", line 249, in eval_batch
+    outs = list(ex.map(lambda it: evaluate(it["code"], fields_path, train_ids, template, aco_cfg, width, ref, timeout_s, cache_path), items))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/threading.py", line 327, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/panupong/ISDEA/src/llm_evolve.py", line 315, in <module>
+    main()
+  File "/home/panupong/ISDEA/src/llm_evolve.py", line 267, in main
+    eval_batch([seed_item])
+  File "/home/panupong/ISDEA/src/llm_evolve.py", line 248, in eval_batch
+    with ThreadPoolExecutor(max_workers=n_workers) as ex:
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/concurrent/futures/_base.py", line 647, in __exit__
+    self.shutdown(wait=True)
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/concurrent/futures/thread.py", line 235, in shutdown
+    t.join()
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/threading.py", line 1119, in join
+    self._wait_for_tstate_lock()
+  File "/home/panupong/anaconda3/envs/isdea/lib/python3.11/threading.py", line 1139, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
