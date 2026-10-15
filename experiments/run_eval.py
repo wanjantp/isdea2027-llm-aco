@@ -35,14 +35,21 @@ def _job(args):
     import numpy as np; np.seterr(all="ignore")
     from energy import Costs, UAVModel
     from aco import ACO, ACOParams, boustrophedon
-    from heuristics import BASELINES, load_heuristic_from_code
+    from heuristics import BASELINES, load_heuristic_from_code, mask_for_template
     C = Costs(swaths, (0.0, 0.0), UAVModel.load(uav_path))
     t0 = time.time()
     if kind == "b1":
         _, r = boustrophedon(C)
     else:
-        fn = BASELINES[src] if kind == "baseline" else load_heuristic_from_code(open(src).read())
-        _, r, _ = ACO(ACOParams(n_ants=ants, n_iters=iters, greedy=(budget == "greedy")), fn, seed=seed).run(C)
+        tpl = "T3"
+        if kind == "baseline":
+            fn = BASELINES[src]
+        else:
+            src, tpl = src
+            fn = load_heuristic_from_code(open(src).read())
+        # evolved T1/T2 heuristics must see the same masked features as during evolution
+        _, r, _ = ACO(ACOParams(n_ants=ants, n_iters=iters, greedy=(budget == "greedy")), fn, seed=seed,
+                      feature_mask=mask_for_template(tpl)).run(C)
     return dict(field_id=fid, method=method, budget=budget, seed=seed, energy_MJ=r.energy_J / 1e6, time_min=r.time_s / 60, sorties=r.n_sorties,
                 work_m=r.dist_work_m, transit_m=r.dist_transit_m, turn_deg=r.total_turn_deg, feasible=r.feasible, cpu_s=time.time() - t0)
 
@@ -61,7 +68,9 @@ def main():
     if a.baselines != "none":
         methods += [(b, "baseline", b) for b in a.baselines.split(",")]
     for h in a.heuristic:
-        name, path = h.split("=", 1); methods.append((name, "file", path))
+        name, path = h.split("=", 1); tpl = "T3"
+        if path[-3:] in (":T1", ":T2", ":T3"): path, tpl = path[:-3], path[-2:]
+        methods.append((name, "file", (path, tpl)))
     budgets = [b.strip() for b in a.budgets.split(",") if b.strip()] or [f"{a.ants}x{a.iters}"]
     jobs = []
     for f in fields:
