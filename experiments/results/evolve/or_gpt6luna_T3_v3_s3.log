@@ -1,0 +1,89 @@
+seed fitness 0.9323
+gen 0: generated 12, valid 12, best 0.9323
+gen 1: generated 24/600, best 0.9323 (gen 0), status {'ok': 25, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 10s/heur, llm 31 calls 10022 out-tok 0.008 USD, 2.9 min
+gen 2: generated 36/600, best 0.9323 (gen 0), status {'ok': 37, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 8s/heur, llm 50 calls 15485 out-tok 0.013 USD, 4.4 min
+gen 3: generated 48/600, best 0.9323 (gen 0), status {'ok': 49, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 8s/heur, llm 69 calls 20556 out-tok 0.017 USD, 5.9 min
+gen 4: generated 60/600, best 0.9323 (gen 0), status {'ok': 61, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 8s/heur, llm 88 calls 26177 out-tok 0.022 USD, 7.4 min
+gen 5: generated 72/600, best 0.9323 (gen 5), status {'ok': 73, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 10s/heur, llm 107 calls 32058 out-tok 0.027 USD, 9.0 min
+gen 6: generated 84/600, best 0.9319 (gen 6), status {'ok': 85, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 9s/heur, llm 126 calls 37618 out-tok 0.032 USD, 10.5 min
+gen 7: generated 96/600, best 0.9315 (gen 7), status {'ok': 97, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 11s/heur, llm 145 calls 43676 out-tok 0.038 USD, 12.2 min
+gen 8: generated 108/600, best 0.9308 (gen 8), status {'ok': 109, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 11s/heur, llm 164 calls 50317 out-tok 0.043 USD, 14.0 min
+gen 9: generated 120/600, best 0.9308 (gen 8), status {'ok': 121, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 13s/heur, llm 183 calls 56989 out-tok 0.049 USD, 15.8 min
+gen 10: generated 132/600, best 0.9308 (gen 8), status {'ok': 133, 'syntax': 0, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 13s/heur, llm 202 calls 63383 out-tok 0.054 USD, 17.7 min
+gen 11: generated 144/600, best 0.9308 (gen 8), status {'ok': 144, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 11s/heur, llm 221 calls 70478 out-tok 0.060 USD, 19.6 min
+gen 12: generated 156/600, best 0.9308 (gen 8), status {'ok': 156, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 13s/heur, llm 240 calls 77015 out-tok 0.066 USD, 21.4 min
+gen 13: generated 168/600, best 0.9308 (gen 8), status {'ok': 168, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 13s/heur, llm 259 calls 83698 out-tok 0.072 USD, 23.2 min
+gen 14: generated 180/600, best 0.9308 (gen 8), status {'ok': 180, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 278 calls 90149 out-tok 0.077 USD, 25.0 min
+gen 15: generated 192/600, best 0.9298 (gen 15), status {'ok': 192, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 297 calls 96552 out-tok 0.083 USD, 26.9 min
+gen 16: generated 204/600, best 0.9298 (gen 15), status {'ok': 204, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 316 calls 103374 out-tok 0.089 USD, 28.7 min
+gen 17: generated 216/600, best 0.9280 (gen 17), status {'ok': 216, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 11s/heur, llm 335 calls 109890 out-tok 0.095 USD, 30.5 min
+gen 18: generated 228/600, best 0.9258 (gen 18), status {'ok': 228, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 13s/heur, llm 354 calls 116699 out-tok 0.101 USD, 32.3 min
+gen 19: generated 240/600, best 0.9258 (gen 18), status {'ok': 240, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 373 calls 123379 out-tok 0.106 USD, 34.2 min
+gen 20: generated 252/600, best 0.9258 (gen 18), status {'ok': 252, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 392 calls 130205 out-tok 0.112 USD, 35.9 min
+gen 21: generated 264/600, best 0.9258 (gen 18), status {'ok': 264, 'syntax': 1, 'runtime': 0, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 411 calls 137546 out-tok 0.119 USD, 37.8 min
+gen 22: generated 276/600, best 0.9258 (gen 18), status {'ok': 274, 'syntax': 1, 'runtime': 2, 'invalid_output': 0, 'timeout': 0}, eval 10s/heur, llm 430 calls 144492 out-tok 0.125 USD, 39.5 min
+gen 23: generated 288/600, best 0.9258 (gen 18), status {'ok': 284, 'syntax': 1, 'runtime': 4, 'invalid_output': 0, 'timeout': 0}, eval 9s/heur, llm 449 calls 151881 out-tok 0.131 USD, 41.4 min
+gen 24: generated 300/600, best 0.9258 (gen 18), status {'ok': 294, 'syntax': 1, 'runtime': 6, 'invalid_output': 0, 'timeout': 0}, eval 9s/heur, llm 468 calls 159300 out-tok 0.137 USD, 43.2 min
+gen 25: generated 312/600, best 0.9258 (gen 18), status {'ok': 305, 'syntax': 1, 'runtime': 7, 'invalid_output': 0, 'timeout': 0}, eval 10s/heur, llm 487 calls 165769 out-tok 0.143 USD, 44.8 min
+gen 26: generated 324/600, best 0.9251 (gen 26), status {'ok': 317, 'syntax': 1, 'runtime': 7, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 506 calls 172246 out-tok 0.149 USD, 46.4 min
+gen 27: generated 336/600, best 0.9251 (gen 26), status {'ok': 329, 'syntax': 1, 'runtime': 7, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 525 calls 178606 out-tok 0.154 USD, 48.1 min
+gen 28: generated 348/600, best 0.9251 (gen 26), status {'ok': 340, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 11s/heur, llm 544 calls 184820 out-tok 0.160 USD, 49.7 min
+gen 29: generated 360/600, best 0.9251 (gen 26), status {'ok': 352, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 563 calls 190949 out-tok 0.165 USD, 51.3 min
+gen 30: generated 372/600, best 0.9251 (gen 26), status {'ok': 364, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 582 calls 197470 out-tok 0.171 USD, 53.0 min
+gen 31: generated 384/600, best 0.9251 (gen 26), status {'ok': 376, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 601 calls 203778 out-tok 0.176 USD, 54.7 min
+gen 32: generated 396/600, best 0.9251 (gen 26), status {'ok': 388, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 620 calls 210107 out-tok 0.182 USD, 56.3 min
+gen 33: generated 408/600, best 0.9248 (gen 33), status {'ok': 400, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 639 calls 216411 out-tok 0.187 USD, 58.0 min
+gen 34: generated 420/600, best 0.9248 (gen 33), status {'ok': 412, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 658 calls 222747 out-tok 0.193 USD, 59.8 min
+gen 35: generated 432/600, best 0.9248 (gen 33), status {'ok': 424, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 677 calls 229302 out-tok 0.199 USD, 61.7 min
+gen 36: generated 444/600, best 0.9248 (gen 33), status {'ok': 436, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 696 calls 235954 out-tok 0.204 USD, 63.5 min
+gen 37: generated 456/600, best 0.9248 (gen 33), status {'ok': 448, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 715 calls 243212 out-tok 0.210 USD, 65.5 min
+gen 38: generated 468/600, best 0.9248 (gen 33), status {'ok': 460, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 13s/heur, llm 734 calls 250409 out-tok 0.216 USD, 67.6 min
+gen 39: generated 480/600, best 0.9248 (gen 33), status {'ok': 472, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 753 calls 256913 out-tok 0.222 USD, 69.4 min
+gen 40: generated 492/600, best 0.9248 (gen 33), status {'ok': 484, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 772 calls 263431 out-tok 0.228 USD, 71.3 min
+gen 41: generated 504/600, best 0.9201 (gen 41), status {'ok': 496, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 791 calls 269984 out-tok 0.233 USD, 73.1 min
+gen 42: generated 516/600, best 0.9200 (gen 42), status {'ok': 508, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 810 calls 276799 out-tok 0.239 USD, 75.0 min
+gen 43: generated 528/600, best 0.9200 (gen 42), status {'ok': 520, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 829 calls 283700 out-tok 0.245 USD, 77.0 min
+gen 44: generated 540/600, best 0.9200 (gen 42), status {'ok': 532, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 848 calls 290575 out-tok 0.251 USD, 78.9 min
+gen 45: generated 552/600, best 0.9185 (gen 45), status {'ok': 544, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 13s/heur, llm 867 calls 298075 out-tok 0.258 USD, 80.9 min
+gen 46: generated 564/600, best 0.9185 (gen 45), status {'ok': 556, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 886 calls 305721 out-tok 0.264 USD, 82.9 min
+gen 47: generated 576/600, best 0.9185 (gen 47), status {'ok': 568, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 905 calls 313038 out-tok 0.270 USD, 84.9 min
+gen 48: generated 588/600, best 0.9180 (gen 48), status {'ok': 580, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 12s/heur, llm 924 calls 320363 out-tok 0.277 USD, 86.8 min
+gen 49: generated 600/600, best 0.9179 (gen 49), status {'ok': 592, 'syntax': 1, 'runtime': 8, 'invalid_output': 0, 'timeout': 0}, eval 13s/heur, llm 943 calls 327734 out-tok 0.283 USD, 88.9 min
+DONE best fitness 0.9179: This heuristic smoothly penalises travel, turning, infeasibility, and depot distance, scaling battery-sensitive penalties by estimated candidate demand while keeping all scores finite and strictly positive.
+import numpy as np
+
+def heuristic(dist_m, turn_deg, swath_len_m, energy_left_frac,
+              depot_dist_m, fits):
+    eps = np.finfo(float).tiny
+
+    def clean(x, nan=0.0, pos=1e12):
+        return np.nan_to_num(np.asarray(x, dtype=float), nan=nan,
+                             posinf=pos, neginf=0.0)
+
+    dist = np.maximum(clean(dist_m, nan=1e12), 0.0)
+    turn = np.clip(clean(turn_deg, nan=180.0, pos=360.0), 0.0, 360.0)
+    length = np.maximum(clean(swath_len_m), 0.0)
+    depot = np.maximum(clean(depot_dist_m, nan=1e12), 0.0)
+    fit = np.clip(clean(fits), 0.0, 1.0)
+    battery = float(np.clip(np.nan_to_num(
+        energy_left_frac, nan=0.0, posinf=1.0, neginf=0.0), 0.0, 1.0))
+    scarcity = 1.0 - battery
+
+    demand_raw = dist + 0.5 * length + depot
+    demand = demand_raw / (demand_raw + 500.0)
+
+    move_cost = (1.0 + 1.6 * scarcity) * (
+        np.log1p(dist) + 0.22 * np.log1p(length))
+    move_cost += 0.68 * turn / 180.0
+    move_cost += 0.32 * scarcity * dist / (dist + 250.0)
+    score = np.exp(-np.minimum(move_cost, 700.0))
+
+    risk = scarcity * (0.4 + 0.6 * demand)
+    score *= np.exp(-(1.0 - fit) * (2.0 + 4.0 * risk))
+
+    depot_pressure = scarcity * (0.3 + 0.7 * demand)
+    depot_scale = 300.0 + 900.0 * battery
+    score *= np.exp(-1.7 * depot_pressure * depot / (depot + depot_scale))
+
+    return np.maximum(np.nan_to_num(score, nan=eps, posinf=1.0,
+                                    neginf=eps), eps)
