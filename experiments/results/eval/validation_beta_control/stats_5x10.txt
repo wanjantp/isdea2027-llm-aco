@@ -1,0 +1,56 @@
+fields=52  seeds/method=5
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         3.46
+B2_distance                            0.9842          0.0383          0.9798     0.0033         3.40
+B2_k1.5                                0.9797          0.0376          0.9769     0.0023         3.39
+B2_k2                                  0.9784          0.0381          0.9761     0.0021         3.38
+B2_k3                                  0.9791          0.0386          0.9767     0.0018         3.38
+B2_k4                                  0.9794          0.0389          0.9769     0.0020         3.37
+coder7b                                0.9773          0.0392          0.9751     0.0017         3.38
+q9b_T1                                 0.9797          0.0389          0.9778     0.0016         3.37
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B2_k1.5                     p=1.0000  wins 4/52  mean diff +0.45% of B1
+  B2_distance                < B2_k2                       p=1.0000  wins 3/52  mean diff +0.59% of B1
+  B2_distance                < B2_k3                       p=1.0000  wins 8/52  mean diff +0.52% of B1
+  B2_distance                < B2_k4                       p=1.0000  wins 11/52  mean diff +0.55% of B1
+  B2_distance                < coder7b                     p=1.0000  wins 5/52  mean diff +0.69% of B1
+  B2_distance                < q9b_T1                      p=1.0000  wins 9/52  mean diff +0.56% of B1
+  B2_k1.5                    < B2_distance                 p=0.0000  wins 47/52  mean diff -0.45% of B1
+  B2_k1.5                    < B2_k2                       p=0.9999  wins 10/52  mean diff +0.14% of B1
+  B2_k1.5                    < B2_k3                       p=0.9710  wins 18/52  mean diff +0.06% of B1
+  B2_k1.5                    < B2_k4                       p=0.9625  wins 18/52  mean diff +0.09% of B1
+  B2_k1.5                    < coder7b                     p=0.9997  wins 12/52  mean diff +0.24% of B1
+  B2_k1.5                    < q9b_T1                      p=0.9111  wins 19/52  mean diff +0.11% of B1
+  B2_k2                      < B2_distance                 p=0.0000  wins 48/52  mean diff -0.59% of B1
+  B2_k2                      < B2_k1.5                     p=0.0001  wins 39/52  mean diff -0.14% of B1
+  B2_k2                      < B2_k3                       p=0.0550  wins 26/52  mean diff -0.08% of B1
+  B2_k2                      < B2_k4                       p=0.0537  wins 30/52  mean diff -0.05% of B1
+  B2_k2                      < coder7b                     p=0.9548  wins 19/52  mean diff +0.09% of B1
+  B2_k2                      < q9b_T1                      p=0.0303  wins 30/52  mean diff -0.04% of B1
+  B2_k3                      < B2_distance                 p=0.0000  wins 43/52  mean diff -0.52% of B1
+  B2_k3                      < B2_k1.5                     p=0.0290  wins 31/52  mean diff -0.06% of B1
+  B2_k3                      < B2_k2                       p=0.9450  wins 21/52  mean diff +0.08% of B1
+  B2_k3                      < B2_k4                       p=0.5022  wins 24/52  mean diff +0.03% of B1
+  B2_k3                      < coder7b                     p=0.9982  wins 15/52  mean diff +0.17% of B1
+  B2_k3                      < q9b_T1                      p=0.3020  wins 26/52  mean diff +0.04% of B1
+  B2_k4                      < B2_distance                 p=0.0000  wins 40/52  mean diff -0.55% of B1
+  B2_k4                      < B2_k1.5                     p=0.0375  wins 32/52  mean diff -0.09% of B1
+  B2_k4                      < B2_k2                       p=0.9463  wins 18/52  mean diff +0.05% of B1
+  B2_k4                      < B2_k3                       p=0.4978  wins 22/52  mean diff -0.03% of B1
+  B2_k4                      < coder7b                     p=0.9996  wins 14/52  mean diff +0.14% of B1
+  B2_k4                      < q9b_T1                      p=0.3212  wins 26/52  mean diff +0.01% of B1
+  coder7b                    < B2_distance                 p=0.0000  wins 46/52  mean diff -0.69% of B1
+  coder7b                    < B2_k1.5                     p=0.0003  wins 36/52  mean diff -0.24% of B1
+  coder7b                    < B2_k2                       p=0.0452  wins 28/52  mean diff -0.09% of B1
+  coder7b                    < B2_k3                       p=0.0018  wins 29/52  mean diff -0.17% of B1
+  coder7b                    < B2_k4                       p=0.0004  wins 31/52  mean diff -0.14% of B1
+  coder7b                    < q9b_T1                      p=0.0005  wins 34/52  mean diff -0.13% of B1
+  q9b_T1                     < B2_distance                 p=0.0000  wins 42/52  mean diff -0.56% of B1
+  q9b_T1                     < B2_k1.5                     p=0.0889  wins 30/52  mean diff -0.11% of B1
+  q9b_T1                     < B2_k2                       p=0.9697  wins 18/52  mean diff +0.04% of B1
+  q9b_T1                     < B2_k3                       p=0.6980  wins 21/52  mean diff -0.04% of B1
+  q9b_T1                     < B2_k4                       p=0.6788  wins 20/52  mean diff -0.01% of B1
+  q9b_T1                     < coder7b                     p=0.9995  wins 12/52  mean diff +0.13% of B1
+Friedman over ['B2_distance', 'B2_k1.5', 'B2_k2', 'B2_k3', 'B2_k4', 'coder7b', 'q9b_T1']: chi2=87.20 p=0.0000

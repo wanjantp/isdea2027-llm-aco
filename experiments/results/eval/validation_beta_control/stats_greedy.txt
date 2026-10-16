@@ -1,0 +1,26 @@
+fields=52  seeds/method=1
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         3.46
+B2_distance                            1.0008          0.0434          1.0008     0.0000         3.44
+B2_k1.5                                1.0008          0.0434          1.0008     0.0000         3.44
+B2_k2                                  1.0008          0.0434          1.0008     0.0000         3.44
+B2_k3                                  1.0008          0.0434          1.0008     0.0000         3.44
+B2_k4                                  1.0008          0.0434          1.0008     0.0000         3.44
+coder7b                                0.9992          0.0435          0.9992     0.0000         3.44
+q9b_T1                                 1.0008          0.0434          1.0008     0.0000         3.44
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < coder7b                     p=0.7678  wins 17/52  mean diff +0.02% of B1
+  B2_k1.5                    < coder7b                     p=0.7678  wins 17/52  mean diff +0.02% of B1
+  B2_k2                      < coder7b                     p=0.7678  wins 17/52  mean diff +0.02% of B1
+  B2_k3                      < coder7b                     p=0.7678  wins 17/52  mean diff +0.02% of B1
+  B2_k4                      < coder7b                     p=0.7678  wins 17/52  mean diff +0.02% of B1
+  coder7b                    < B2_distance                 p=0.2322  wins 20/52  mean diff -0.02% of B1
+  coder7b                    < B2_k1.5                     p=0.2322  wins 20/52  mean diff -0.02% of B1
+  coder7b                    < B2_k2                       p=0.2322  wins 20/52  mean diff -0.02% of B1
+  coder7b                    < B2_k3                       p=0.2322  wins 20/52  mean diff -0.02% of B1
+  coder7b                    < B2_k4                       p=0.2322  wins 20/52  mean diff -0.02% of B1
+  coder7b                    < q9b_T1                      p=0.2322  wins 20/52  mean diff -0.02% of B1
+  q9b_T1                     < coder7b                     p=0.7678  wins 17/52  mean diff +0.02% of B1
+Friedman over ['B2_distance', 'B2_k1.5', 'B2_k2', 'B2_k3', 'B2_k4', 'coder7b', 'q9b_T1']: chi2=1.46 p=0.9621
