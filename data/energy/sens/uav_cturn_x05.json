@@ -1,0 +1,14 @@
+{
+ "name": "DJI_Agras_T25_derived_cturn_x0.5",
+ "v_work": 5.0,
+ "v_transit": 10.0,
+ "P_work": 4300.0,
+ "P_transit": 3500.0,
+ "P_hover": 4300.0,
+ "omega": 90.0,
+ "c_turn": 750.0,
+ "E_battery": 2910000.0,
+ "reserve_frac": 0.15,
+ "E_swap": 60000.0,
+ "t_swap": 180.0
+}

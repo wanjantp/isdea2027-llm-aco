@@ -1,0 +1,43 @@
+fields=100  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         3.31
+B2_distance                            0.9895          0.0397          0.9837     0.0034         3.29
+B2_k5                                  0.9860          0.0401          0.9838     0.0015         3.27
+B2_k2                                  0.9846          0.0398          0.9812     0.0023         3.27
+coder7b                                0.9836          0.0410          0.9807     0.0019         3.26
+q9b_T2                                 0.9836          0.0407          0.9803     0.0022         3.27
+q9b_T3                                 0.9836          0.0404          0.9806     0.0022         3.26
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B2_k5                       p=1.0000  wins 27/100  mean diff +0.36% of B1
+  B2_distance                < B2_k2                       p=1.0000  wins 11/100  mean diff +0.48% of B1
+  B2_distance                < coder7b                     p=1.0000  wins 17/100  mean diff +0.57% of B1
+  B2_distance                < q9b_T2                      p=1.0000  wins 14/100  mean diff +0.52% of B1
+  B2_distance                < q9b_T3                      p=1.0000  wins 12/100  mean diff +0.56% of B1
+  B2_k5                      < B2_distance                 p=0.0000  wins 72/100  mean diff -0.36% of B1
+  B2_k5                      < B2_k2                       p=0.8985  wins 45/100  mean diff +0.12% of B1
+  B2_k5                      < coder7b                     p=1.0000  wins 21/100  mean diff +0.22% of B1
+  B2_k5                      < q9b_T2                      p=1.0000  wins 29/100  mean diff +0.17% of B1
+  B2_k5                      < q9b_T3                      p=0.9999  wins 29/100  mean diff +0.21% of B1
+  B2_k2                      < B2_distance                 p=0.0000  wins 88/100  mean diff -0.48% of B1
+  B2_k2                      < B2_k5                       p=0.1015  wins 47/100  mean diff -0.12% of B1
+  B2_k2                      < coder7b                     p=0.9997  wins 33/100  mean diff +0.10% of B1
+  B2_k2                      < q9b_T2                      p=0.9999  wins 29/100  mean diff +0.05% of B1
+  B2_k2                      < q9b_T3                      p=0.9998  wins 33/100  mean diff +0.09% of B1
+  coder7b                    < B2_distance                 p=0.0000  wins 82/100  mean diff -0.57% of B1
+  coder7b                    < B2_k5                       p=0.0000  wins 68/100  mean diff -0.22% of B1
+  coder7b                    < B2_k2                       p=0.0003  wins 60/100  mean diff -0.10% of B1
+  coder7b                    < q9b_T2                      p=0.2553  wins 49/100  mean diff -0.05% of B1
+  coder7b                    < q9b_T3                      p=0.0590  wins 53/100  mean diff -0.01% of B1
+  q9b_T2                     < B2_distance                 p=0.0000  wins 85/100  mean diff -0.52% of B1
+  q9b_T2                     < B2_k5                       p=0.0000  wins 64/100  mean diff -0.17% of B1
+  q9b_T2                     < B2_k2                       p=0.0001  wins 64/100  mean diff -0.05% of B1
+  q9b_T2                     < coder7b                     p=0.7447  wins 45/100  mean diff +0.05% of B1
+  q9b_T2                     < q9b_T3                      p=0.2619  wins 43/100  mean diff +0.04% of B1
+  q9b_T3                     < B2_distance                 p=0.0000  wins 87/100  mean diff -0.56% of B1
+  q9b_T3                     < B2_k5                       p=0.0001  wins 65/100  mean diff -0.21% of B1
+  q9b_T3                     < B2_k2                       p=0.0002  wins 60/100  mean diff -0.09% of B1
+  q9b_T3                     < coder7b                     p=0.9410  wins 41/100  mean diff +0.01% of B1
+  q9b_T3                     < q9b_T2                      p=0.7381  wins 35/100  mean diff -0.04% of B1
+Friedman over ['B2_distance', 'B2_k5', 'B2_k2', 'coder7b', 'q9b_T2', 'q9b_T3']: chi2=131.59 p=0.0000
