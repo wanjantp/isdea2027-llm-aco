@@ -1,0 +1,2 @@
+CPU(s):                                  16
+Model name:                              Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz

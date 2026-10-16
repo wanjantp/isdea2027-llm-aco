@@ -1,0 +1,92 @@
+20 fields; generating swaths ...
+1820 runs on 16 workers
+  50/1820  0.0 min
+  100/1820  0.0 min
+  150/1820  0.0 min
+  200/1820  0.0 min
+  250/1820  0.0 min
+  300/1820  0.0 min
+  350/1820  0.0 min
+  400/1820  0.0 min
+  450/1820  0.1 min
+  500/1820  0.1 min
+  550/1820  0.1 min
+  600/1820  0.1 min
+  650/1820  0.1 min
+  700/1820  0.1 min
+  750/1820  0.1 min
+  800/1820  0.1 min
+  850/1820  0.1 min
+  900/1820  0.2 min
+  950/1820  0.2 min
+  1000/1820  0.2 min
+  1050/1820  0.2 min
+  1100/1820  0.2 min
+  1150/1820  0.2 min
+  1200/1820  0.2 min
+  1250/1820  0.3 min
+  1300/1820  0.3 min
+  1350/1820  0.3 min
+  1400/1820  0.3 min
+  1450/1820  0.4 min
+  1500/1820  0.4 min
+  1550/1820  0.4 min
+  1600/1820  0.4 min
+  1650/1820  0.5 min
+  1700/1820  0.5 min
+  1750/1820  0.6 min
+  1800/1820  0.6 min
+
+===== budget 1x1 =====
+fields=20  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_k5                                  0.9531          0.0965          0.9407     0.0093         6.45
+B2_k6                                  0.9535          0.0966          0.9405     0.0099         6.45
+B2_k8                                  0.9537          0.0975          0.9422     0.0098         6.46
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_k5                      < B2_k6                       p=0.5364  wins 9/20  mean diff -0.20% of B1
+  B2_k5                      < B2_k8                       p=0.4636  wins 9/20  mean diff -0.02% of B1
+  B2_k6                      < B2_k5                       p=0.4782  wins 11/20  mean diff +0.20% of B1
+  B2_k6                      < B2_k8                       p=0.1559  wins 10/20  mean diff +0.18% of B1
+  B2_k8                      < B2_k5                       p=0.5508  wins 11/20  mean diff +0.02% of B1
+  B2_k8                      < B2_k6                       p=0.8529  wins 10/20  mean diff -0.18% of B1
+Friedman over ['B2_k5', 'B2_k6', 'B2_k8']: chi2=0.30 p=0.8607
+
+===== budget 3x3 =====
+fields=20  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_k5                                  0.9412          0.0980          0.9370     0.0027         6.36
+B2_k6                                  0.9413          0.0981          0.9380     0.0023         6.35
+B2_k8                                  0.9417          0.0984          0.9379     0.0023         6.35
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_k5                      < B2_k6                       p=0.0989  wins 13/20  mean diff -0.00% of B1
+  B2_k5                      < B2_k8                       p=0.0715  wins 11/20  mean diff -0.02% of B1
+  B2_k6                      < B2_k5                       p=0.9011  wins 6/20  mean diff +0.00% of B1
+  B2_k6                      < B2_k8                       p=0.1744  wins 11/20  mean diff -0.02% of B1
+  B2_k8                      < B2_k5                       p=0.9336  wins 9/20  mean diff +0.02% of B1
+  B2_k8                      < B2_k6                       p=0.8350  wins 9/20  mean diff +0.02% of B1
+Friedman over ['B2_k5', 'B2_k6', 'B2_k8']: chi2=1.54 p=0.4620
+
+===== budget 5x10 =====
+fields=20  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_k5                                  0.9379          0.0981          0.9353     0.0016         6.35
+B2_k6                                  0.9384          0.0981          0.9362     0.0014         6.35
+B2_k8                                  0.9384          0.0982          0.9358     0.0016         6.35
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_k5                      < B2_k6                       p=0.0221  wins 12/20  mean diff -0.04% of B1
+  B2_k5                      < B2_k8                       p=0.0354  wins 13/20  mean diff -0.04% of B1
+  B2_k6                      < B2_k5                       p=0.9779  wins 5/20  mean diff +0.04% of B1
+  B2_k6                      < B2_k8                       p=0.8140  wins 6/20  mean diff +0.00% of B1
+  B2_k8                      < B2_k5                       p=0.9646  wins 5/20  mean diff +0.04% of B1
+  B2_k8                      < B2_k6                       p=0.1860  wins 12/20  mean diff -0.00% of B1
+Friedman over ['B2_k5', 'B2_k6', 'B2_k8']: chi2=5.61 p=0.0606

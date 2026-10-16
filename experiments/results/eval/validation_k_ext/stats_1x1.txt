@@ -1,0 +1,16 @@
+fields=52  seeds/method=5
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         3.46
+B2_k5                                  0.9981          0.0389          0.9841     0.0106         3.44
+B2_k6                                  0.9976          0.0376          0.9859     0.0103         3.43
+B2_k8                                  0.9968          0.0381          0.9845     0.0104         3.44
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_k5                      < B2_k6                       p=0.7696  wins 18/52  mean diff -0.06% of B1
+  B2_k5                      < B2_k8                       p=0.9069  wins 20/52  mean diff +0.05% of B1
+  B2_k6                      < B2_k5                       p=0.2304  wins 28/52  mean diff +0.06% of B1
+  B2_k6                      < B2_k8                       p=0.9558  wins 20/52  mean diff +0.10% of B1
+  B2_k8                      < B2_k5                       p=0.0931  wins 31/52  mean diff -0.05% of B1
+  B2_k8                      < B2_k6                       p=0.0442  wins 30/52  mean diff -0.10% of B1
+Friedman over ['B2_k5', 'B2_k6', 'B2_k8']: chi2=4.45 p=0.1078
