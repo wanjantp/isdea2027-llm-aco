@@ -1,0 +1,1163 @@
+20 fields; generating swaths ...
+12260 runs on 16 workers
+  50/12260  0.0 min
+  100/12260  0.1 min
+  150/12260  0.2 min
+  200/12260  0.4 min
+  250/12260  0.6 min
+  300/12260  0.7 min
+  350/12260  0.9 min
+  400/12260  1.0 min
+  450/12260  1.3 min
+  500/12260  1.5 min
+  550/12260  2.0 min
+  600/12260  2.5 min
+  650/12260  2.6 min
+  700/12260  2.8 min
+  750/12260  3.0 min
+  800/12260  3.2 min
+  850/12260  3.3 min
+  900/12260  3.7 min
+  950/12260  4.0 min
+  1000/12260  4.2 min
+  1050/12260  4.5 min
+  1100/12260  4.8 min
+  1150/12260  5.5 min
+  1200/12260  6.3 min
+  1250/12260  6.4 min
+  1300/12260  6.6 min
+  1350/12260  6.9 min
+  1400/12260  7.3 min
+  1450/12260  7.5 min
+  1500/12260  8.1 min
+  1550/12260  8.6 min
+  1600/12260  8.8 min
+  1650/12260  9.5 min
+  1700/12260  9.9 min
+  1750/12260  10.4 min
+  1800/12260  11.9 min
+  1850/12260  12.8 min
+  1900/12260  13.0 min
+  1950/12260  13.3 min
+  2000/12260  13.7 min
+  2050/12260  13.9 min
+  2100/12260  14.4 min
+  2150/12260  14.7 min
+  2200/12260  15.2 min
+  2250/12260  15.6 min
+  2300/12260  16.1 min
+  2350/12260  16.5 min
+  2400/12260  17.6 min
+  2450/12260  18.9 min
+  2500/12260  19.1 min
+  2550/12260  19.3 min
+  2600/12260  19.8 min
+  2650/12260  20.0 min
+  2700/12260  20.7 min
+  2750/12260  21.0 min
+  2800/12260  21.4 min
+  2850/12260  21.7 min
+  2900/12260  22.4 min
+  2950/12260  22.8 min
+  3000/12260  24.1 min
+  3050/12260  25.4 min
+  3100/12260  25.6 min
+  3150/12260  25.9 min
+  3200/12260  26.4 min
+  3250/12260  26.6 min
+  3300/12260  26.9 min
+  3350/12260  27.4 min
+  3400/12260  28.0 min
+  3450/12260  28.4 min
+  3500/12260  28.9 min
+  3550/12260  29.4 min
+  3600/12260  30.6 min
+  3650/12260  32.1 min
+  3700/12260  32.2 min
+  3750/12260  32.4 min
+  3800/12260  33.0 min
+  3850/12260  33.3 min
+  3900/12260  33.5 min
+  3950/12260  34.2 min
+  4000/12260  34.6 min
+  4050/12260  35.0 min
+  4100/12260  35.6 min
+  4150/12260  36.1 min
+  4200/12260  36.7 min
+  4250/12260  38.1 min
+  4300/12260  39.3 min
+  4350/12260  39.5 min
+  4400/12260  40.1 min
+  4450/12260  41.1 min
+  4500/12260  41.6 min
+  4550/12260  42.4 min
+  4600/12260  43.1 min
+  4650/12260  44.3 min
+  4700/12260  45.2 min
+  4750/12260  46.2 min
+  4800/12260  47.1 min
+  4850/12260  49.8 min
+  4900/12260  52.5 min
+  4950/12260  52.8 min
+  5000/12260  53.1 min
+  5050/12260  53.7 min
+  5100/12260  54.0 min
+  5150/12260  54.7 min
+  5200/12260  55.1 min
+  5250/12260  55.6 min
+  5300/12260  55.9 min
+  5350/12260  56.7 min
+  5400/12260  57.1 min
+  5450/12260  58.6 min
+  5500/12260  59.9 min
+  5550/12260  60.3 min
+  5600/12260  60.7 min
+  5650/12260  61.4 min
+  5700/12260  62.2 min
+  5750/12260  62.7 min
+  5800/12260  63.7 min
+  5850/12260  64.8 min
+  5900/12260  65.5 min
+  5950/12260  66.6 min
+  6000/12260  67.5 min
+  6050/12260  70.0 min
+  6100/12260  72.9 min
+  6150/12260  73.1 min
+  6200/12260  73.4 min
+  6250/12260  74.3 min
+  6300/12260  75.0 min
+  6350/12260  75.5 min
+  6400/12260  76.8 min
+  6450/12260  77.8 min
+  6500/12260  78.3 min
+  6550/12260  79.6 min
+  6600/12260  80.4 min
+  6650/12260  81.1 min
+  6700/12260  84.4 min
+  6750/12260  86.8 min
+  6800/12260  87.1 min
+  6850/12260  87.7 min
+  6900/12260  88.8 min
+  6950/12260  89.4 min
+  7000/12260  90.1 min
+  7050/12260  91.3 min
+  7100/12260  92.8 min
+  7150/12260  93.7 min
+  7200/12260  94.9 min
+  7250/12260  95.9 min
+  7300/12260  98.9 min
+  7350/12260  102.3 min
+  7400/12260  102.7 min
+  7450/12260  103.2 min
+  7500/12260  104.2 min
+  7550/12260  104.9 min
+  7600/12260  106.3 min
+  7650/12260  106.9 min
+  7700/12260  107.9 min
+  7750/12260  108.3 min
+  7800/12260  110.0 min
+  7850/12260  110.7 min
+  7900/12260  113.6 min
+  7950/12260  116.4 min
+  8000/12260  116.9 min
+  8050/12260  117.2 min
+  8100/12260  118.6 min
+  8150/12260  119.2 min
+  8200/12260  119.7 min
+  8250/12260  120.9 min
+  8300/12260  122.5 min
+  8350/12260  123.1 min
+  8400/12260  124.4 min
+  8450/12260  125.5 min
+  8500/12260  128.0 min
+  8550/12260  131.5 min
+  8600/12260  131.9 min
+  8650/12260  132.3 min
+  8700/12260  133.2 min
+  8750/12260  134.2 min
+  8800/12260  134.6 min
+  8850/12260  135.9 min
+  8900/12260  137.0 min
+  8950/12260  137.5 min
+  9000/12260  138.9 min
+  9050/12260  139.7 min
+  9100/12260  140.5 min
+  9150/12260  143.9 min
+  9200/12260  146.3 min
+  9250/12260  146.9 min
+  9300/12260  147.8 min
+  9350/12260  149.8 min
+  9400/12260  152.1 min
+  9450/12260  153.4 min
+  9500/12260  156.2 min
+  9550/12260  159.5 min
+  9600/12260  161.8 min
+  9650/12260  164.5 min
+  9700/12260  167.4 min
+  9750/12260  173.9 min
+  9800/12260  182.0 min
+  9850/12260  182.5 min
+  9900/12260  183.2 min
+  9950/12260  183.9 min
+  10000/12260  184.4 min
+  10050/12260  185.6 min
+  10100/12260  186.5 min
+  10150/12260  187.0 min
+  10200/12260  187.7 min
+  10250/12260  188.6 min
+  10300/12260  189.2 min
+  10350/12260  191.0 min
+  10400/12260  193.6 min
+  10450/12260  193.8 min
+  10500/12260  194.9 min
+  10550/12260  196.9 min
+  10600/12260  200.7 min
+  10650/12260  202.0 min
+  10700/12260  205.5 min
+  10750/12260  210.7 min
+  10800/12260  212.8 min
+  10850/12260  216.7 min
+  10900/12260  219.9 min
+  10950/12260  223.3 min
+  11000/12260  237.9 min
+  11050/12260  239.4 min
+  11100/12260  240.4 min
+  11150/12260  243.1 min
+  11200/12260  244.8 min
+  11250/12260  246.4 min
+  11300/12260  249.9 min
+  11350/12260  252.6 min
+  11400/12260  253.4 min
+  11450/12260  257.1 min
+  11500/12260  259.3 min
+  11550/12260  261.4 min
+  11600/12260  268.9 min
+  11650/12260  275.6 min
+  11700/12260  276.4 min
+  11750/12260  277.2 min
+  11800/12260  278.3 min
+  11850/12260  279.2 min
+  11900/12260  280.5 min
+  11950/12260  281.6 min
+  12000/12260  282.2 min
+  12050/12260  283.4 min
+  12100/12260  284.5 min
+  12150/12260  285.4 min
+  12200/12260  288.2 min
+  12250/12260  291.8 min
+
+===== budget greedy =====
+fields=20  seeds/method=1
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_distance                            0.9531          0.0977          0.9531     0.0000         6.35
+B3_dist_turn                           0.9486          0.1005          0.9486     0.0000         6.40
+B4_dist_turn_battery                   0.9557          0.0998          0.9557     0.0000         6.35
+coder7b                                0.9521          0.1016          0.9521     0.0000         6.45
+q9b_T3                                 0.9522          0.0959          0.9522     0.0000         6.40
+q9b_T3rep                              0.9548          0.0965          0.9548     0.0000         6.45
+q9b_T2                                 0.9510          0.0971          0.9510     0.0000         6.50
+q9b_T1                                 0.9531          0.0977          0.9531     0.0000         6.35
+sol                                    0.9512          0.1009          0.9512     0.0000         6.35
+luna                                   0.9538          0.1017          0.9538     0.0000         6.35
+haiku                                  0.9538          0.0970          0.9538     0.0000         6.40
+q9b_api                                0.9504          0.0998          0.9504     0.0000         6.35
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B3_dist_turn                p=0.8347  wins 4/20  mean diff +0.73% of B1
+  B2_distance                < B4_dist_turn_battery        p=0.2346  wins 10/20  mean diff -0.08% of B1
+  B2_distance                < coder7b                     p=0.5160  wins 8/20  mean diff +0.58% of B1
+  B2_distance                < q9b_T3                      p=0.5819  wins 8/20  mean diff -0.05% of B1
+  B2_distance                < q9b_T3rep                   p=0.3004  wins 8/20  mean diff -0.20% of B1
+  B2_distance                < q9b_T2                      p=0.5206  wins 9/20  mean diff +0.52% of B1
+  B2_distance                < sol                         p=0.9733  wins 6/20  mean diff +0.26% of B1
+  B2_distance                < luna                        p=0.2190  wins 9/20  mean diff +0.41% of B1
+  B2_distance                < haiku                       p=0.3290  wins 11/20  mean diff -0.23% of B1
+  B2_distance                < q9b_api                     p=0.7685  wins 5/20  mean diff +0.58% of B1
+  B3_dist_turn               < B2_distance                 p=0.1653  wins 10/20  mean diff -0.73% of B1
+  B3_dist_turn               < B4_dist_turn_battery        p=0.1659  wins 11/20  mean diff -0.81% of B1
+  B3_dist_turn               < coder7b                     p=0.0464  wins 13/20  mean diff -0.15% of B1
+  B3_dist_turn               < q9b_T3                      p=0.1360  wins 8/20  mean diff -0.78% of B1
+  B3_dist_turn               < q9b_T3rep                   p=0.0420  wins 10/20  mean diff -0.93% of B1
+  B3_dist_turn               < q9b_T2                      p=0.0368  wins 11/20  mean diff -0.21% of B1
+  B3_dist_turn               < q9b_T1                      p=0.1653  wins 10/20  mean diff -0.73% of B1
+  B3_dist_turn               < sol                         p=0.5819  wins 8/20  mean diff -0.47% of B1
+  B3_dist_turn               < luna                        p=0.0134  wins 12/20  mean diff -0.32% of B1
+  B3_dist_turn               < haiku                       p=0.1531  wins 12/20  mean diff -0.96% of B1
+  B3_dist_turn               < q9b_api                     p=0.3455  wins 8/20  mean diff -0.15% of B1
+  B4_dist_turn_battery       < B2_distance                 p=0.7654  wins 6/20  mean diff +0.08% of B1
+  B4_dist_turn_battery       < B3_dist_turn                p=0.8341  wins 6/20  mean diff +0.81% of B1
+  B4_dist_turn_battery       < coder7b                     p=0.7738  wins 7/20  mean diff +0.66% of B1
+  B4_dist_turn_battery       < q9b_T3                      p=0.6563  wins 6/20  mean diff +0.03% of B1
+  B4_dist_turn_battery       < q9b_T3rep                   p=0.4046  wins 8/20  mean diff -0.12% of B1
+  B4_dist_turn_battery       < q9b_T2                      p=0.6904  wins 8/20  mean diff +0.60% of B1
+  B4_dist_turn_battery       < q9b_T1                      p=0.7654  wins 6/20  mean diff +0.08% of B1
+  B4_dist_turn_battery       < sol                         p=0.9962  wins 1/20  mean diff +0.34% of B1
+  B4_dist_turn_battery       < luna                        p=0.5452  wins 7/20  mean diff +0.49% of B1
+  B4_dist_turn_battery       < haiku                       p=0.3738  wins 10/20  mean diff -0.15% of B1
+  B4_dist_turn_battery       < q9b_api                     p=0.8495  wins 6/20  mean diff +0.66% of B1
+  coder7b                    < B2_distance                 p=0.4840  wins 11/20  mean diff -0.58% of B1
+  coder7b                    < B3_dist_turn                p=0.9536  wins 4/20  mean diff +0.15% of B1
+  coder7b                    < B4_dist_turn_battery        p=0.2375  wins 13/20  mean diff -0.66% of B1
+  coder7b                    < q9b_T3                      p=0.5471  wins 9/20  mean diff -0.62% of B1
+  coder7b                    < q9b_T3rep                   p=0.1897  wins 9/20  mean diff -0.77% of B1
+  coder7b                    < q9b_T2                      p=0.7392  wins 9/20  mean diff -0.05% of B1
+  coder7b                    < q9b_T1                      p=0.4840  wins 11/20  mean diff -0.58% of B1
+  coder7b                    < sol                         p=0.7147  wins 11/20  mean diff -0.31% of B1
+  coder7b                    < luna                        p=0.1979  wins 11/20  mean diff -0.17% of B1
+  coder7b                    < haiku                       p=0.2608  wins 12/20  mean diff -0.81% of B1
+  coder7b                    < q9b_api                     p=0.6280  wins 8/20  mean diff +0.00% of B1
+  q9b_T3                     < B2_distance                 p=0.4181  wins 8/20  mean diff +0.05% of B1
+  q9b_T3                     < B3_dist_turn                p=0.8640  wins 4/20  mean diff +0.78% of B1
+  q9b_T3                     < B4_dist_turn_battery        p=0.3437  wins 11/20  mean diff -0.03% of B1
+  q9b_T3                     < coder7b                     p=0.4529  wins 8/20  mean diff +0.62% of B1
+  q9b_T3                     < q9b_T3rep                   p=0.1780  wins 10/20  mean diff -0.15% of B1
+  q9b_T3                     < q9b_T2                      p=0.5452  wins 7/20  mean diff +0.57% of B1
+  q9b_T3                     < q9b_T1                      p=0.4181  wins 8/20  mean diff +0.05% of B1
+  q9b_T3                     < sol                         p=0.9187  wins 6/20  mean diff +0.31% of B1
+  q9b_T3                     < luna                        p=0.4324  wins 7/20  mean diff +0.46% of B1
+  q9b_T3                     < haiku                       p=0.1746  wins 12/20  mean diff -0.19% of B1
+  q9b_T3                     < q9b_api                     p=0.7150  wins 6/20  mean diff +0.63% of B1
+  q9b_T3rep                  < B2_distance                 p=0.6996  wins 11/20  mean diff +0.20% of B1
+  q9b_T3rep                  < B3_dist_turn                p=0.9580  wins 7/20  mean diff +0.93% of B1
+  q9b_T3rep                  < B4_dist_turn_battery        p=0.5954  wins 11/20  mean diff +0.12% of B1
+  q9b_T3rep                  < coder7b                     p=0.8103  wins 7/20  mean diff +0.77% of B1
+  q9b_T3rep                  < q9b_T3                      p=0.8220  wins 7/20  mean diff +0.15% of B1
+  q9b_T3rep                  < q9b_T2                      p=0.8227  wins 9/20  mean diff +0.72% of B1
+  q9b_T3rep                  < q9b_T1                      p=0.6996  wins 11/20  mean diff +0.20% of B1
+  q9b_T3rep                  < sol                         p=0.8939  wins 9/20  mean diff +0.46% of B1
+  q9b_T3rep                  < luna                        p=0.4157  wins 11/20  mean diff +0.61% of B1
+  q9b_T3rep                  < haiku                       p=0.5796  wins 10/20  mean diff -0.04% of B1
+  q9b_T3rep                  < q9b_api                     p=0.9827  wins 7/20  mean diff +0.78% of B1
+  q9b_T2                     < B2_distance                 p=0.4794  wins 7/20  mean diff -0.52% of B1
+  q9b_T2                     < B3_dist_turn                p=0.9632  wins 3/20  mean diff +0.21% of B1
+  q9b_T2                     < B4_dist_turn_battery        p=0.3096  wins 9/20  mean diff -0.60% of B1
+  q9b_T2                     < coder7b                     p=0.2729  wins 11/20  mean diff +0.05% of B1
+  q9b_T2                     < q9b_T3                      p=0.4548  wins 8/20  mean diff -0.57% of B1
+  q9b_T2                     < q9b_T3rep                   p=0.1773  wins 10/20  mean diff -0.72% of B1
+  q9b_T2                     < q9b_T1                      p=0.4794  wins 7/20  mean diff -0.52% of B1
+  q9b_T2                     < sol                         p=0.7654  wins 7/20  mean diff -0.26% of B1
+  q9b_T2                     < luna                        p=0.4342  wins 8/20  mean diff -0.11% of B1
+  q9b_T2                     < haiku                       p=0.3973  wins 10/20  mean diff -0.76% of B1
+  q9b_T2                     < q9b_api                     p=0.8828  wins 6/20  mean diff +0.06% of B1
+  q9b_T1                     < B3_dist_turn                p=0.8347  wins 4/20  mean diff +0.73% of B1
+  q9b_T1                     < B4_dist_turn_battery        p=0.2346  wins 10/20  mean diff -0.08% of B1
+  q9b_T1                     < coder7b                     p=0.5160  wins 8/20  mean diff +0.58% of B1
+  q9b_T1                     < q9b_T3                      p=0.5819  wins 8/20  mean diff -0.05% of B1
+  q9b_T1                     < q9b_T3rep                   p=0.3004  wins 8/20  mean diff -0.20% of B1
+  q9b_T1                     < q9b_T2                      p=0.5206  wins 9/20  mean diff +0.52% of B1
+  q9b_T1                     < sol                         p=0.9733  wins 6/20  mean diff +0.26% of B1
+  q9b_T1                     < luna                        p=0.2190  wins 9/20  mean diff +0.41% of B1
+  q9b_T1                     < haiku                       p=0.3290  wins 11/20  mean diff -0.23% of B1
+  q9b_T1                     < q9b_api                     p=0.7685  wins 5/20  mean diff +0.58% of B1
+  sol                        < B2_distance                 p=0.0267  wins 9/20  mean diff -0.26% of B1
+  sol                        < B3_dist_turn                p=0.4181  wins 8/20  mean diff +0.47% of B1
+  sol                        < B4_dist_turn_battery        p=0.0038  wins 14/20  mean diff -0.34% of B1
+  sol                        < coder7b                     p=0.2979  wins 9/20  mean diff +0.31% of B1
+  sol                        < q9b_T3                      p=0.0813  wins 10/20  mean diff -0.31% of B1
+  sol                        < q9b_T3rep                   p=0.1061  wins 10/20  mean diff -0.46% of B1
+  sol                        < q9b_T2                      p=0.2346  wins 9/20  mean diff +0.26% of B1
+  sol                        < q9b_T1                      p=0.0267  wins 9/20  mean diff -0.26% of B1
+  sol                        < luna                        p=0.1276  wins 10/20  mean diff +0.15% of B1
+  sol                        < haiku                       p=0.1137  wins 11/20  mean diff -0.49% of B1
+  sol                        < q9b_api                     p=0.3025  wins 8/20  mean diff +0.32% of B1
+  luna                       < B2_distance                 p=0.7810  wins 7/20  mean diff -0.41% of B1
+  luna                       < B3_dist_turn                p=0.9866  wins 3/20  mean diff +0.32% of B1
+  luna                       < B4_dist_turn_battery        p=0.4548  wins 8/20  mean diff -0.49% of B1
+  luna                       < coder7b                     p=0.8021  wins 7/20  mean diff +0.17% of B1
+  luna                       < q9b_T3                      p=0.5676  wins 8/20  mean diff -0.46% of B1
+  luna                       < q9b_T3rep                   p=0.5843  wins 6/20  mean diff -0.61% of B1
+  luna                       < q9b_T2                      p=0.5658  wins 9/20  mean diff +0.11% of B1
+  luna                       < q9b_T1                      p=0.7810  wins 7/20  mean diff -0.41% of B1
+  luna                       < sol                         p=0.8724  wins 6/20  mean diff -0.15% of B1
+  luna                       < haiku                       p=0.5321  wins 11/20  mean diff -0.64% of B1
+  luna                       < q9b_api                     p=0.8597  wins 5/20  mean diff +0.17% of B1
+  haiku                      < B2_distance                 p=0.6710  wins 8/20  mean diff +0.23% of B1
+  haiku                      < B3_dist_turn                p=0.8469  wins 6/20  mean diff +0.96% of B1
+  haiku                      < B4_dist_turn_battery        p=0.6262  wins 9/20  mean diff +0.15% of B1
+  haiku                      < coder7b                     p=0.7510  wins 8/20  mean diff +0.81% of B1
+  haiku                      < q9b_T3                      p=0.8254  wins 6/20  mean diff +0.19% of B1
+  haiku                      < q9b_T3rep                   p=0.4347  wins 10/20  mean diff +0.04% of B1
+  haiku                      < q9b_T2                      p=0.6027  wins 7/20  mean diff +0.76% of B1
+  haiku                      < q9b_T1                      p=0.6710  wins 8/20  mean diff +0.23% of B1
+  haiku                      < sol                         p=0.8863  wins 6/20  mean diff +0.49% of B1
+  haiku                      < luna                        p=0.4679  wins 8/20  mean diff +0.64% of B1
+  haiku                      < q9b_api                     p=0.9144  wins 6/20  mean diff +0.81% of B1
+  q9b_api                    < B2_distance                 p=0.2315  wins 8/20  mean diff -0.58% of B1
+  q9b_api                    < B3_dist_turn                p=0.6545  wins 7/20  mean diff +0.15% of B1
+  q9b_api                    < B4_dist_turn_battery        p=0.1505  wins 10/20  mean diff -0.66% of B1
+  q9b_api                    < coder7b                     p=0.3720  wins 10/20  mean diff -0.00% of B1
+  q9b_api                    < q9b_T3                      p=0.2850  wins 9/20  mean diff -0.63% of B1
+  q9b_api                    < q9b_T3rep                   p=0.0173  wins 11/20  mean diff -0.78% of B1
+  q9b_api                    < q9b_T2                      p=0.1172  wins 10/20  mean diff -0.06% of B1
+  q9b_api                    < q9b_T1                      p=0.2315  wins 8/20  mean diff -0.58% of B1
+  q9b_api                    < sol                         p=0.6975  wins 8/20  mean diff -0.32% of B1
+  q9b_api                    < luna                        p=0.1403  wins 10/20  mean diff -0.17% of B1
+  q9b_api                    < haiku                       p=0.0856  wins 13/20  mean diff -0.81% of B1
+Friedman over ['B2_distance', 'B3_dist_turn', 'B4_dist_turn_battery', 'coder7b', 'q9b_T3', 'q9b_T3rep', 'q9b_T2', 'q9b_T1', 'sol', 'luna', 'haiku', 'q9b_api']: chi2=11.02 p=0.4413
+
+===== budget 1x1 =====
+fields=20  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_distance                            0.9744          0.0996          0.9559     0.0118         6.61
+B3_dist_turn                           0.9858          0.1027          0.9645     0.0143         6.66
+B4_dist_turn_battery                   0.9863          0.1051          0.9648     0.0138         6.48
+coder7b                                0.9518          0.0985          0.9385     0.0104         6.42
+q9b_T3                                 0.9546          0.0979          0.9401     0.0107         6.42
+q9b_T3rep                              0.9541          0.0979          0.9406     0.0098         6.40
+q9b_T2                                 0.9536          0.0980          0.9406     0.0108         6.46
+q9b_T1                                 0.9541          0.0967          0.9409     0.0095         6.46
+sol                                    0.9530          0.0984          0.9407     0.0083         6.37
+luna                                   0.9591          0.0996          0.9423     0.0112         6.38
+haiku                                  0.9581          0.0984          0.9435     0.0104         6.47
+q9b_api                                0.9514          0.0974          0.9419     0.0070         6.36
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B3_dist_turn                p=0.0000  wins 19/20  mean diff -0.85% of B1
+  B2_distance                < B4_dist_turn_battery        p=0.0006  wins 18/20  mean diff -0.78% of B1
+  B2_distance                < coder7b                     p=1.0000  wins 0/20  mean diff +2.06% of B1
+  B2_distance                < q9b_T3                      p=1.0000  wins 0/20  mean diff +1.86% of B1
+  B2_distance                < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +1.91% of B1
+  B2_distance                < q9b_T2                      p=1.0000  wins 0/20  mean diff +1.82% of B1
+  B2_distance                < q9b_T1                      p=1.0000  wins 0/20  mean diff +1.62% of B1
+  B2_distance                < sol                         p=1.0000  wins 0/20  mean diff +1.86% of B1
+  B2_distance                < luna                        p=1.0000  wins 1/20  mean diff +1.43% of B1
+  B2_distance                < haiku                       p=1.0000  wins 0/20  mean diff +1.46% of B1
+  B2_distance                < q9b_api                     p=1.0000  wins 0/20  mean diff +1.97% of B1
+  B3_dist_turn               < B2_distance                 p=1.0000  wins 1/20  mean diff +0.85% of B1
+  B3_dist_turn               < B4_dist_turn_battery        p=0.4062  wins 12/20  mean diff +0.07% of B1
+  B3_dist_turn               < coder7b                     p=1.0000  wins 0/20  mean diff +2.91% of B1
+  B3_dist_turn               < q9b_T3                      p=1.0000  wins 0/20  mean diff +2.71% of B1
+  B3_dist_turn               < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +2.76% of B1
+  B3_dist_turn               < q9b_T2                      p=1.0000  wins 0/20  mean diff +2.67% of B1
+  B3_dist_turn               < q9b_T1                      p=1.0000  wins 0/20  mean diff +2.47% of B1
+  B3_dist_turn               < sol                         p=1.0000  wins 0/20  mean diff +2.72% of B1
+  B3_dist_turn               < luna                        p=1.0000  wins 0/20  mean diff +2.28% of B1
+  B3_dist_turn               < haiku                       p=1.0000  wins 0/20  mean diff +2.32% of B1
+  B3_dist_turn               < q9b_api                     p=1.0000  wins 0/20  mean diff +2.82% of B1
+  B4_dist_turn_battery       < B2_distance                 p=0.9995  wins 2/20  mean diff +0.78% of B1
+  B4_dist_turn_battery       < B3_dist_turn                p=0.6079  wins 8/20  mean diff -0.07% of B1
+  B4_dist_turn_battery       < coder7b                     p=1.0000  wins 0/20  mean diff +2.84% of B1
+  B4_dist_turn_battery       < q9b_T3                      p=1.0000  wins 0/20  mean diff +2.64% of B1
+  B4_dist_turn_battery       < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +2.69% of B1
+  B4_dist_turn_battery       < q9b_T2                      p=1.0000  wins 0/20  mean diff +2.60% of B1
+  B4_dist_turn_battery       < q9b_T1                      p=1.0000  wins 0/20  mean diff +2.40% of B1
+  B4_dist_turn_battery       < sol                         p=1.0000  wins 0/20  mean diff +2.64% of B1
+  B4_dist_turn_battery       < luna                        p=1.0000  wins 0/20  mean diff +2.21% of B1
+  B4_dist_turn_battery       < haiku                       p=1.0000  wins 0/20  mean diff +2.24% of B1
+  B4_dist_turn_battery       < q9b_api                     p=1.0000  wins 0/20  mean diff +2.75% of B1
+  coder7b                    < B2_distance                 p=0.0000  wins 20/20  mean diff -2.06% of B1
+  coder7b                    < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.91% of B1
+  coder7b                    < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.84% of B1
+  coder7b                    < q9b_T3                      p=0.0047  wins 17/20  mean diff -0.20% of B1
+  coder7b                    < q9b_T3rep                   p=0.0107  wins 14/20  mean diff -0.15% of B1
+  coder7b                    < q9b_T2                      p=0.0032  wins 16/20  mean diff -0.24% of B1
+  coder7b                    < q9b_T1                      p=0.0615  wins 14/20  mean diff -0.44% of B1
+  coder7b                    < sol                         p=0.0664  wins 14/20  mean diff -0.20% of B1
+  coder7b                    < luna                        p=0.0001  wins 17/20  mean diff -0.63% of B1
+  coder7b                    < haiku                       p=0.0000  wins 19/20  mean diff -0.60% of B1
+  coder7b                    < q9b_api                     p=0.2045  wins 10/20  mean diff -0.09% of B1
+  q9b_T3                     < B2_distance                 p=0.0000  wins 20/20  mean diff -1.86% of B1
+  q9b_T3                     < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.71% of B1
+  q9b_T3                     < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.64% of B1
+  q9b_T3                     < coder7b                     p=0.9958  wins 3/20  mean diff +0.20% of B1
+  q9b_T3                     < q9b_T3rep                   p=0.6892  wins 9/20  mean diff +0.05% of B1
+  q9b_T3                     < q9b_T2                      p=0.7656  wins 7/20  mean diff -0.04% of B1
+  q9b_T3                     < q9b_T1                      p=0.7021  wins 7/20  mean diff -0.24% of B1
+  q9b_T3                     < sol                         p=0.6219  wins 9/20  mean diff +0.00% of B1
+  q9b_T3                     < luna                        p=0.0077  wins 16/20  mean diff -0.44% of B1
+  q9b_T3                     < haiku                       p=0.0012  wins 16/20  mean diff -0.40% of B1
+  q9b_T3                     < q9b_api                     p=0.9175  wins 6/20  mean diff +0.11% of B1
+  q9b_T3rep                  < B2_distance                 p=0.0000  wins 20/20  mean diff -1.91% of B1
+  q9b_T3rep                  < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.76% of B1
+  q9b_T3rep                  < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.69% of B1
+  q9b_T3rep                  < coder7b                     p=0.9904  wins 6/20  mean diff +0.15% of B1
+  q9b_T3rep                  < q9b_T3                      p=0.3238  wins 11/20  mean diff -0.05% of B1
+  q9b_T3rep                  < q9b_T2                      p=0.3921  wins 11/20  mean diff -0.09% of B1
+  q9b_T3rep                  < q9b_T1                      p=0.2490  wins 12/20  mean diff -0.29% of B1
+  q9b_T3rep                  < sol                         p=0.5796  wins 10/20  mean diff -0.05% of B1
+  q9b_T3rep                  < luna                        p=0.0004  wins 17/20  mean diff -0.48% of B1
+  q9b_T3rep                  < haiku                       p=0.0220  wins 13/20  mean diff -0.45% of B1
+  q9b_T3rep                  < q9b_api                     p=0.9430  wins 6/20  mean diff +0.06% of B1
+  q9b_T2                     < B2_distance                 p=0.0000  wins 20/20  mean diff -1.82% of B1
+  q9b_T2                     < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.67% of B1
+  q9b_T2                     < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.60% of B1
+  q9b_T2                     < coder7b                     p=0.9972  wins 4/20  mean diff +0.24% of B1
+  q9b_T2                     < q9b_T3                      p=0.2344  wins 12/20  mean diff +0.04% of B1
+  q9b_T2                     < q9b_T3rep                   p=0.6219  wins 9/20  mean diff +0.09% of B1
+  q9b_T2                     < q9b_T1                      p=0.5218  wins 10/20  mean diff -0.20% of B1
+  q9b_T2                     < sol                         p=0.2152  wins 12/20  mean diff +0.04% of B1
+  q9b_T2                     < luna                        p=0.0006  wins 18/20  mean diff -0.40% of B1
+  q9b_T2                     < haiku                       p=0.0036  wins 17/20  mean diff -0.36% of B1
+  q9b_T2                     < q9b_api                     p=0.8441  wins 8/20  mean diff +0.15% of B1
+  q9b_T1                     < B2_distance                 p=0.0000  wins 20/20  mean diff -1.62% of B1
+  q9b_T1                     < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.47% of B1
+  q9b_T1                     < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.40% of B1
+  q9b_T1                     < coder7b                     p=0.9430  wins 6/20  mean diff +0.44% of B1
+  q9b_T1                     < q9b_T3                      p=0.3108  wins 13/20  mean diff +0.24% of B1
+  q9b_T1                     < q9b_T3rep                   p=0.7625  wins 8/20  mean diff +0.29% of B1
+  q9b_T1                     < q9b_T2                      p=0.4927  wins 10/20  mean diff +0.20% of B1
+  q9b_T1                     < sol                         p=0.8159  wins 9/20  mean diff +0.25% of B1
+  q9b_T1                     < luna                        p=0.0348  wins 15/20  mean diff -0.19% of B1
+  q9b_T1                     < haiku                       p=0.0133  wins 16/20  mean diff -0.15% of B1
+  q9b_T1                     < q9b_api                     p=0.9587  wins 8/20  mean diff +0.35% of B1
+  sol                        < B2_distance                 p=0.0000  wins 20/20  mean diff -1.86% of B1
+  sol                        < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.72% of B1
+  sol                        < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.64% of B1
+  sol                        < coder7b                     p=0.9385  wins 6/20  mean diff +0.20% of B1
+  sol                        < q9b_T3                      p=0.3921  wins 11/20  mean diff -0.00% of B1
+  sol                        < q9b_T3rep                   p=0.4347  wins 10/20  mean diff +0.05% of B1
+  sol                        < q9b_T2                      p=0.7955  wins 8/20  mean diff -0.04% of B1
+  sol                        < q9b_T1                      p=0.1942  wins 11/20  mean diff -0.25% of B1
+  sol                        < luna                        p=0.0005  wins 17/20  mean diff -0.44% of B1
+  sol                        < haiku                       p=0.0047  wins 17/20  mean diff -0.40% of B1
+  sol                        < q9b_api                     p=0.8988  wins 8/20  mean diff +0.10% of B1
+  luna                       < B2_distance                 p=0.0000  wins 19/20  mean diff -1.43% of B1
+  luna                       < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.28% of B1
+  luna                       < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.21% of B1
+  luna                       < coder7b                     p=1.0000  wins 3/20  mean diff +0.63% of B1
+  luna                       < q9b_T3                      p=0.9932  wins 4/20  mean diff +0.44% of B1
+  luna                       < q9b_T3rep                   p=0.9996  wins 3/20  mean diff +0.48% of B1
+  luna                       < q9b_T2                      p=0.9995  wins 2/20  mean diff +0.40% of B1
+  luna                       < q9b_T1                      p=0.9681  wins 5/20  mean diff +0.19% of B1
+  luna                       < sol                         p=0.9996  wins 3/20  mean diff +0.44% of B1
+  luna                       < haiku                       p=0.5938  wins 10/20  mean diff +0.04% of B1
+  luna                       < q9b_api                     p=0.9998  wins 3/20  mean diff +0.54% of B1
+  haiku                      < B2_distance                 p=0.0000  wins 20/20  mean diff -1.46% of B1
+  haiku                      < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.32% of B1
+  haiku                      < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.24% of B1
+  haiku                      < coder7b                     p=1.0000  wins 1/20  mean diff +0.60% of B1
+  haiku                      < q9b_T3                      p=0.9990  wins 4/20  mean diff +0.40% of B1
+  haiku                      < q9b_T3rep                   p=0.9800  wins 7/20  mean diff +0.45% of B1
+  haiku                      < q9b_T2                      p=0.9968  wins 3/20  mean diff +0.36% of B1
+  haiku                      < q9b_T1                      p=0.9880  wins 4/20  mean diff +0.15% of B1
+  haiku                      < sol                         p=0.9958  wins 3/20  mean diff +0.40% of B1
+  haiku                      < luna                        p=0.4204  wins 10/20  mean diff -0.04% of B1
+  haiku                      < q9b_api                     p=0.9968  wins 4/20  mean diff +0.50% of B1
+  q9b_api                    < B2_distance                 p=0.0000  wins 20/20  mean diff -1.97% of B1
+  q9b_api                    < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.82% of B1
+  q9b_api                    < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.75% of B1
+  q9b_api                    < coder7b                     p=0.8058  wins 10/20  mean diff +0.09% of B1
+  q9b_api                    < q9b_T3                      p=0.0884  wins 14/20  mean diff -0.11% of B1
+  q9b_api                    < q9b_T3rep                   p=0.0615  wins 14/20  mean diff -0.06% of B1
+  q9b_api                    < q9b_T2                      p=0.1650  wins 12/20  mean diff -0.15% of B1
+  q9b_api                    < q9b_T1                      p=0.0448  wins 12/20  mean diff -0.35% of B1
+  q9b_api                    < sol                         p=0.1081  wins 12/20  mean diff -0.10% of B1
+  q9b_api                    < luna                        p=0.0002  wins 17/20  mean diff -0.54% of B1
+  q9b_api                    < haiku                       p=0.0036  wins 16/20  mean diff -0.50% of B1
+Friedman over ['B2_distance', 'B3_dist_turn', 'B4_dist_turn_battery', 'coder7b', 'q9b_T3', 'q9b_T3rep', 'q9b_T2', 'q9b_T1', 'sol', 'luna', 'haiku', 'q9b_api']: chi2=152.18 p=0.0000
+
+===== budget 3x3 =====
+fields=20  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_distance                            0.9543          0.0968          0.9442     0.0062         6.45
+B3_dist_turn                           0.9644          0.0978          0.9504     0.0073         6.54
+B4_dist_turn_battery                   0.9654          0.0997          0.9532     0.0065         6.39
+coder7b                                0.9400          0.0975          0.9361     0.0028         6.35
+q9b_T3                                 0.9413          0.0969          0.9358     0.0034         6.35
+q9b_T3rep                              0.9408          0.0961          0.9362     0.0034         6.36
+q9b_T2                                 0.9408          0.0977          0.9357     0.0034         6.35
+q9b_T1                                 0.9412          0.0980          0.9369     0.0028         6.35
+sol                                    0.9413          0.0986          0.9362     0.0032         6.35
+luna                                   0.9429          0.0975          0.9367     0.0040         6.35
+haiku                                  0.9435          0.0975          0.9376     0.0040         6.37
+q9b_api                                0.9420          0.0978          0.9392     0.0022         6.35
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B3_dist_turn                p=0.0000  wins 20/20  mean diff -0.90% of B1
+  B2_distance                < B4_dist_turn_battery        p=0.0001  wins 19/20  mean diff -0.82% of B1
+  B2_distance                < coder7b                     p=1.0000  wins 0/20  mean diff +1.41% of B1
+  B2_distance                < q9b_T3                      p=1.0000  wins 0/20  mean diff +1.32% of B1
+  B2_distance                < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +1.29% of B1
+  B2_distance                < q9b_T2                      p=1.0000  wins 0/20  mean diff +1.37% of B1
+  B2_distance                < q9b_T1                      p=1.0000  wins 1/20  mean diff +1.32% of B1
+  B2_distance                < sol                         p=1.0000  wins 1/20  mean diff +1.30% of B1
+  B2_distance                < luna                        p=1.0000  wins 1/20  mean diff +1.06% of B1
+  B2_distance                < haiku                       p=1.0000  wins 0/20  mean diff +1.05% of B1
+  B2_distance                < q9b_api                     p=1.0000  wins 0/20  mean diff +1.26% of B1
+  B3_dist_turn               < B2_distance                 p=1.0000  wins 0/20  mean diff +0.90% of B1
+  B3_dist_turn               < B4_dist_turn_battery        p=0.4062  wins 11/20  mean diff +0.08% of B1
+  B3_dist_turn               < coder7b                     p=1.0000  wins 0/20  mean diff +2.31% of B1
+  B3_dist_turn               < q9b_T3                      p=1.0000  wins 0/20  mean diff +2.21% of B1
+  B3_dist_turn               < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +2.19% of B1
+  B3_dist_turn               < q9b_T2                      p=1.0000  wins 0/20  mean diff +2.27% of B1
+  B3_dist_turn               < q9b_T1                      p=1.0000  wins 0/20  mean diff +2.22% of B1
+  B3_dist_turn               < sol                         p=1.0000  wins 0/20  mean diff +2.20% of B1
+  B3_dist_turn               < luna                        p=1.0000  wins 0/20  mean diff +1.96% of B1
+  B3_dist_turn               < haiku                       p=1.0000  wins 0/20  mean diff +1.94% of B1
+  B3_dist_turn               < q9b_api                     p=1.0000  wins 0/20  mean diff +2.15% of B1
+  B4_dist_turn_battery       < B2_distance                 p=0.9999  wins 1/20  mean diff +0.82% of B1
+  B4_dist_turn_battery       < B3_dist_turn                p=0.6079  wins 9/20  mean diff -0.08% of B1
+  B4_dist_turn_battery       < coder7b                     p=1.0000  wins 1/20  mean diff +2.23% of B1
+  B4_dist_turn_battery       < q9b_T3                      p=1.0000  wins 1/20  mean diff +2.14% of B1
+  B4_dist_turn_battery       < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +2.11% of B1
+  B4_dist_turn_battery       < q9b_T2                      p=1.0000  wins 1/20  mean diff +2.19% of B1
+  B4_dist_turn_battery       < q9b_T1                      p=1.0000  wins 1/20  mean diff +2.14% of B1
+  B4_dist_turn_battery       < sol                         p=1.0000  wins 1/20  mean diff +2.12% of B1
+  B4_dist_turn_battery       < luna                        p=1.0000  wins 0/20  mean diff +1.89% of B1
+  B4_dist_turn_battery       < haiku                       p=1.0000  wins 1/20  mean diff +1.87% of B1
+  B4_dist_turn_battery       < q9b_api                     p=1.0000  wins 1/20  mean diff +2.08% of B1
+  coder7b                    < B2_distance                 p=0.0000  wins 20/20  mean diff -1.41% of B1
+  coder7b                    < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.31% of B1
+  coder7b                    < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -2.23% of B1
+  coder7b                    < q9b_T3                      p=0.0164  wins 15/20  mean diff -0.10% of B1
+  coder7b                    < q9b_T3rep                   p=0.0448  wins 13/20  mean diff -0.12% of B1
+  coder7b                    < q9b_T2                      p=0.0413  wins 15/20  mean diff -0.04% of B1
+  coder7b                    < q9b_T1                      p=0.1559  wins 12/20  mean diff -0.09% of B1
+  coder7b                    < sol                         p=0.0768  wins 12/20  mean diff -0.12% of B1
+  coder7b                    < luna                        p=0.0068  wins 15/20  mean diff -0.35% of B1
+  coder7b                    < haiku                       p=0.0001  wins 18/20  mean diff -0.37% of B1
+  coder7b                    < q9b_api                     p=0.0036  wins 16/20  mean diff -0.16% of B1
+  q9b_T3                     < B2_distance                 p=0.0000  wins 20/20  mean diff -1.32% of B1
+  q9b_T3                     < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.21% of B1
+  q9b_T3                     < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -2.14% of B1
+  q9b_T3                     < coder7b                     p=0.9852  wins 5/20  mean diff +0.10% of B1
+  q9b_T3                     < q9b_T3rep                   p=0.3506  wins 10/20  mean diff -0.03% of B1
+  q9b_T3                     < q9b_T2                      p=0.7361  wins 8/20  mean diff +0.06% of B1
+  q9b_T3                     < q9b_T1                      p=0.8058  wins 6/20  mean diff +0.01% of B1
+  q9b_T3                     < sol                         p=0.5073  wins 8/20  mean diff -0.02% of B1
+  q9b_T3                     < luna                        p=0.1744  wins 11/20  mean diff -0.25% of B1
+  q9b_T3                     < haiku                       p=0.0008  wins 15/20  mean diff -0.27% of B1
+  q9b_T3                     < q9b_api                     p=0.1227  wins 11/20  mean diff -0.06% of B1
+  q9b_T3rep                  < B2_distance                 p=0.0000  wins 20/20  mean diff -1.29% of B1
+  q9b_T3rep                  < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.19% of B1
+  q9b_T3rep                  < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -2.11% of B1
+  q9b_T3rep                  < coder7b                     p=0.9587  wins 7/20  mean diff +0.12% of B1
+  q9b_T3rep                  < q9b_T3                      p=0.6629  wins 10/20  mean diff +0.03% of B1
+  q9b_T3rep                  < q9b_T2                      p=0.8159  wins 9/20  mean diff +0.08% of B1
+  q9b_T3rep                  < q9b_T1                      p=0.6892  wins 9/20  mean diff +0.03% of B1
+  q9b_T3rep                  < sol                         p=0.6629  wins 9/20  mean diff +0.01% of B1
+  q9b_T3rep                  < luna                        p=0.0200  wins 16/20  mean diff -0.22% of B1
+  q9b_T3rep                  < haiku                       p=0.0181  wins 15/20  mean diff -0.24% of B1
+  q9b_T3rep                  < q9b_api                     p=0.1081  wins 14/20  mean diff -0.03% of B1
+  q9b_T2                     < B2_distance                 p=0.0000  wins 20/20  mean diff -1.37% of B1
+  q9b_T2                     < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.27% of B1
+  q9b_T2                     < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -2.19% of B1
+  q9b_T2                     < coder7b                     p=0.9621  wins 5/20  mean diff +0.04% of B1
+  q9b_T2                     < q9b_T3                      p=0.2639  wins 10/20  mean diff -0.06% of B1
+  q9b_T2                     < q9b_T3rep                   p=0.1942  wins 11/20  mean diff -0.08% of B1
+  q9b_T2                     < q9b_T1                      p=0.4927  wins 8/20  mean diff -0.05% of B1
+  q9b_T2                     < sol                         p=0.1305  wins 12/20  mean diff -0.07% of B1
+  q9b_T2                     < luna                        p=0.0133  wins 16/20  mean diff -0.31% of B1
+  q9b_T2                     < haiku                       p=0.0003  wins 16/20  mean diff -0.32% of B1
+  q9b_T2                     < q9b_api                     p=0.1012  wins 11/20  mean diff -0.12% of B1
+  q9b_T1                     < B2_distance                 p=0.0000  wins 19/20  mean diff -1.32% of B1
+  q9b_T1                     < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.22% of B1
+  q9b_T1                     < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -2.14% of B1
+  q9b_T1                     < coder7b                     p=0.8529  wins 8/20  mean diff +0.09% of B1
+  q9b_T1                     < q9b_T3                      p=0.2045  wins 14/20  mean diff -0.01% of B1
+  q9b_T1                     < q9b_T3rep                   p=0.3238  wins 11/20  mean diff -0.03% of B1
+  q9b_T1                     < q9b_T2                      p=0.5218  wins 12/20  mean diff +0.05% of B1
+  q9b_T1                     < sol                         p=0.2729  wins 10/20  mean diff -0.02% of B1
+  q9b_T1                     < luna                        p=0.0664  wins 15/20  mean diff -0.26% of B1
+  q9b_T1                     < haiku                       p=0.0012  wins 17/20  mean diff -0.28% of B1
+  q9b_T1                     < q9b_api                     p=0.0768  wins 14/20  mean diff -0.07% of B1
+  sol                        < B2_distance                 p=0.0000  wins 19/20  mean diff -1.30% of B1
+  sol                        < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.20% of B1
+  sol                        < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -2.12% of B1
+  sol                        < coder7b                     p=0.9285  wins 8/20  mean diff +0.12% of B1
+  sol                        < q9b_T3                      p=0.5073  wins 12/20  mean diff +0.02% of B1
+  sol                        < q9b_T3rep                   p=0.3506  wins 11/20  mean diff -0.01% of B1
+  sol                        < q9b_T2                      p=0.8773  wins 8/20  mean diff +0.07% of B1
+  sol                        < q9b_T1                      p=0.7392  wins 10/20  mean diff +0.02% of B1
+  sol                        < luna                        p=0.0107  wins 16/20  mean diff -0.23% of B1
+  sol                        < haiku                       p=0.0068  wins 14/20  mean diff -0.25% of B1
+  sol                        < q9b_api                     p=0.2223  wins 13/20  mean diff -0.04% of B1
+  luna                       < B2_distance                 p=0.0000  wins 19/20  mean diff -1.06% of B1
+  luna                       < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.96% of B1
+  luna                       < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -1.89% of B1
+  luna                       < coder7b                     p=0.9940  wins 5/20  mean diff +0.35% of B1
+  luna                       < q9b_T3                      p=0.8350  wins 9/20  mean diff +0.25% of B1
+  luna                       < q9b_T3rep                   p=0.9819  wins 4/20  mean diff +0.22% of B1
+  luna                       < q9b_T2                      p=0.9880  wins 4/20  mean diff +0.31% of B1
+  luna                       < q9b_T1                      p=0.9385  wins 5/20  mean diff +0.26% of B1
+  luna                       < sol                         p=0.9904  wins 4/20  mean diff +0.23% of B1
+  luna                       < haiku                       p=0.2375  wins 11/20  mean diff -0.02% of B1
+  luna                       < q9b_api                     p=0.9552  wins 4/20  mean diff +0.19% of B1
+  haiku                      < B2_distance                 p=0.0000  wins 20/20  mean diff -1.05% of B1
+  haiku                      < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.94% of B1
+  haiku                      < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.87% of B1
+  haiku                      < coder7b                     p=0.9999  wins 2/20  mean diff +0.37% of B1
+  haiku                      < q9b_T3                      p=0.9993  wins 5/20  mean diff +0.27% of B1
+  haiku                      < q9b_T3rep                   p=0.9836  wins 5/20  mean diff +0.24% of B1
+  haiku                      < q9b_T2                      p=0.9998  wins 4/20  mean diff +0.32% of B1
+  haiku                      < q9b_T1                      p=0.9990  wins 3/20  mean diff +0.28% of B1
+  haiku                      < sol                         p=0.9940  wins 6/20  mean diff +0.25% of B1
+  haiku                      < luna                        p=0.7738  wins 9/20  mean diff +0.02% of B1
+  haiku                      < q9b_api                     p=0.9285  wins 8/20  mean diff +0.21% of B1
+  q9b_api                    < B2_distance                 p=0.0000  wins 20/20  mean diff -1.26% of B1
+  q9b_api                    < B3_dist_turn                p=0.0000  wins 20/20  mean diff -2.15% of B1
+  q9b_api                    < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -2.08% of B1
+  q9b_api                    < coder7b                     p=0.9968  wins 4/20  mean diff +0.16% of B1
+  q9b_api                    < q9b_T3                      p=0.8847  wins 9/20  mean diff +0.06% of B1
+  q9b_api                    < q9b_T3rep                   p=0.8988  wins 6/20  mean diff +0.03% of B1
+  q9b_api                    < q9b_T2                      p=0.9053  wins 9/20  mean diff +0.12% of B1
+  q9b_api                    < q9b_T1                      p=0.9285  wins 6/20  mean diff +0.07% of B1
+  q9b_api                    < sol                         p=0.7777  wins 6/20  mean diff +0.04% of B1
+  q9b_api                    < luna                        p=0.0487  wins 16/20  mean diff -0.19% of B1
+  q9b_api                    < haiku                       p=0.0768  wins 12/20  mean diff -0.21% of B1
+Friedman over ['B2_distance', 'B3_dist_turn', 'B4_dist_turn_battery', 'coder7b', 'q9b_T3', 'q9b_T3rep', 'q9b_T2', 'q9b_T1', 'sol', 'luna', 'haiku', 'q9b_api']: chi2=136.11 p=0.0000
+
+===== budget 5x10 =====
+fields=20  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_distance                            0.9454          0.0957          0.9398     0.0033         6.37
+B3_dist_turn                           0.9549          0.0967          0.9475     0.0045         6.45
+B4_dist_turn_battery                   0.9555          0.0968          0.9471     0.0050         6.38
+coder7b                                0.9365          0.0973          0.9336     0.0016         6.35
+q9b_T3                                 0.9368          0.0972          0.9327     0.0022         6.34
+q9b_T3rep                              0.9364          0.0963          0.9328     0.0021         6.35
+q9b_T2                                 0.9366          0.0972          0.9327     0.0020         6.36
+q9b_T1                                 0.9378          0.0978          0.9351     0.0015         6.35
+sol                                    0.9369          0.0988          0.9333     0.0023         6.33
+luna                                   0.9376          0.0975          0.9335     0.0025         6.33
+haiku                                  0.9384          0.0968          0.9347     0.0022         6.35
+q9b_api                                0.9395          0.0980          0.9371     0.0013         6.35
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B3_dist_turn                p=0.0000  wins 20/20  mean diff -0.84% of B1
+  B2_distance                < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -0.80% of B1
+  B2_distance                < coder7b                     p=1.0000  wins 1/20  mean diff +1.00% of B1
+  B2_distance                < q9b_T3                      p=1.0000  wins 0/20  mean diff +0.99% of B1
+  B2_distance                < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +0.99% of B1
+  B2_distance                < q9b_T2                      p=1.0000  wins 0/20  mean diff +1.03% of B1
+  B2_distance                < q9b_T1                      p=0.9999  wins 2/20  mean diff +0.95% of B1
+  B2_distance                < sol                         p=1.0000  wins 0/20  mean diff +1.01% of B1
+  B2_distance                < luna                        p=1.0000  wins 0/20  mean diff +0.83% of B1
+  B2_distance                < haiku                       p=1.0000  wins 1/20  mean diff +0.77% of B1
+  B2_distance                < q9b_api                     p=0.9998  wins 3/20  mean diff +0.79% of B1
+  B3_dist_turn               < B2_distance                 p=1.0000  wins 0/20  mean diff +0.84% of B1
+  B3_dist_turn               < B4_dist_turn_battery        p=0.3238  wins 11/20  mean diff +0.04% of B1
+  B3_dist_turn               < coder7b                     p=1.0000  wins 0/20  mean diff +1.85% of B1
+  B3_dist_turn               < q9b_T3                      p=1.0000  wins 0/20  mean diff +1.83% of B1
+  B3_dist_turn               < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +1.83% of B1
+  B3_dist_turn               < q9b_T2                      p=1.0000  wins 0/20  mean diff +1.87% of B1
+  B3_dist_turn               < q9b_T1                      p=1.0000  wins 1/20  mean diff +1.79% of B1
+  B3_dist_turn               < sol                         p=1.0000  wins 0/20  mean diff +1.85% of B1
+  B3_dist_turn               < luna                        p=1.0000  wins 0/20  mean diff +1.68% of B1
+  B3_dist_turn               < haiku                       p=1.0000  wins 0/20  mean diff +1.62% of B1
+  B3_dist_turn               < q9b_api                     p=1.0000  wins 1/20  mean diff +1.64% of B1
+  B4_dist_turn_battery       < B2_distance                 p=1.0000  wins 1/20  mean diff +0.80% of B1
+  B4_dist_turn_battery       < B3_dist_turn                p=0.6892  wins 9/20  mean diff -0.04% of B1
+  B4_dist_turn_battery       < coder7b                     p=1.0000  wins 1/20  mean diff +1.81% of B1
+  B4_dist_turn_battery       < q9b_T3                      p=1.0000  wins 1/20  mean diff +1.79% of B1
+  B4_dist_turn_battery       < q9b_T3rep                   p=1.0000  wins 0/20  mean diff +1.79% of B1
+  B4_dist_turn_battery       < q9b_T2                      p=1.0000  wins 1/20  mean diff +1.83% of B1
+  B4_dist_turn_battery       < q9b_T1                      p=1.0000  wins 1/20  mean diff +1.75% of B1
+  B4_dist_turn_battery       < sol                         p=1.0000  wins 1/20  mean diff +1.81% of B1
+  B4_dist_turn_battery       < luna                        p=1.0000  wins 0/20  mean diff +1.63% of B1
+  B4_dist_turn_battery       < haiku                       p=1.0000  wins 1/20  mean diff +1.58% of B1
+  B4_dist_turn_battery       < q9b_api                     p=1.0000  wins 1/20  mean diff +1.60% of B1
+  coder7b                    < B2_distance                 p=0.0000  wins 19/20  mean diff -1.00% of B1
+  coder7b                    < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.85% of B1
+  coder7b                    < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.81% of B1
+  coder7b                    < q9b_T3                      p=0.3238  wins 14/20  mean diff -0.01% of B1
+  coder7b                    < q9b_T3rep                   p=0.3437  wins 10/20  mean diff -0.02% of B1
+  coder7b                    < q9b_T2                      p=0.2853  wins 13/20  mean diff +0.02% of B1
+  coder7b                    < q9b_T1                      p=0.1744  wins 11/20  mean diff -0.05% of B1
+  coder7b                    < sol                         p=0.3146  wins 11/20  mean diff +0.01% of B1
+  coder7b                    < luna                        p=0.0825  wins 13/20  mean diff -0.17% of B1
+  coder7b                    < haiku                       p=0.0047  wins 16/20  mean diff -0.23% of B1
+  coder7b                    < q9b_api                     p=0.0012  wins 15/20  mean diff -0.21% of B1
+  q9b_T3                     < B2_distance                 p=0.0000  wins 20/20  mean diff -0.99% of B1
+  q9b_T3                     < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.83% of B1
+  q9b_T3                     < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.79% of B1
+  q9b_T3                     < coder7b                     p=0.6892  wins 6/20  mean diff +0.01% of B1
+  q9b_T3                     < q9b_T3rep                   p=0.6629  wins 8/20  mean diff -0.01% of B1
+  q9b_T3                     < q9b_T2                      p=0.6735  wins 7/20  mean diff +0.03% of B1
+  q9b_T3                     < q9b_T1                      p=0.2979  wins 11/20  mean diff -0.04% of B1
+  q9b_T3                     < sol                         p=0.5796  wins 10/20  mean diff +0.02% of B1
+  q9b_T3                     < luna                        p=0.1942  wins 13/20  mean diff -0.16% of B1
+  q9b_T3                     < haiku                       p=0.0012  wins 17/20  mean diff -0.22% of B1
+  q9b_T3                     < q9b_api                     p=0.0016  wins 17/20  mean diff -0.20% of B1
+  q9b_T3rep                  < B2_distance                 p=0.0000  wins 20/20  mean diff -0.99% of B1
+  q9b_T3rep                  < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.83% of B1
+  q9b_T3rep                  < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -1.79% of B1
+  q9b_T3rep                  < coder7b                     p=0.6563  wins 9/20  mean diff +0.02% of B1
+  q9b_T3rep                  < q9b_T3                      p=0.3506  wins 12/20  mean diff +0.01% of B1
+  q9b_T3rep                  < q9b_T2                      p=0.6219  wins 10/20  mean diff +0.04% of B1
+  q9b_T3rep                  < q9b_T1                      p=0.1559  wins 14/20  mean diff -0.04% of B1
+  q9b_T3rep                  < sol                         p=0.3720  wins 12/20  mean diff +0.02% of B1
+  q9b_T3rep                  < luna                        p=0.0077  wins 17/20  mean diff -0.15% of B1
+  q9b_T3rep                  < haiku                       p=0.0077  wins 16/20  mean diff -0.21% of B1
+  q9b_T3rep                  < q9b_api                     p=0.0019  wins 17/20  mean diff -0.19% of B1
+  q9b_T2                     < B2_distance                 p=0.0000  wins 20/20  mean diff -1.03% of B1
+  q9b_T2                     < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.87% of B1
+  q9b_T2                     < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.83% of B1
+  q9b_T2                     < coder7b                     p=0.7271  wins 7/20  mean diff -0.02% of B1
+  q9b_T2                     < q9b_T3                      p=0.3265  wins 10/20  mean diff -0.03% of B1
+  q9b_T2                     < q9b_T3rep                   p=0.3921  wins 10/20  mean diff -0.04% of B1
+  q9b_T2                     < q9b_T1                      p=0.1153  wins 12/20  mean diff -0.08% of B1
+  q9b_T2                     < sol                         p=0.2608  wins 12/20  mean diff -0.02% of B1
+  q9b_T2                     < luna                        p=0.0266  wins 14/20  mean diff -0.19% of B1
+  q9b_T2                     < haiku                       p=0.0018  wins 16/20  mean diff -0.25% of B1
+  q9b_T2                     < q9b_api                     p=0.0006  wins 17/20  mean diff -0.23% of B1
+  q9b_T1                     < B2_distance                 p=0.0001  wins 18/20  mean diff -0.95% of B1
+  q9b_T1                     < B3_dist_turn                p=0.0000  wins 19/20  mean diff -1.79% of B1
+  q9b_T1                     < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.75% of B1
+  q9b_T1                     < coder7b                     p=0.8350  wins 9/20  mean diff +0.05% of B1
+  q9b_T1                     < q9b_T3                      p=0.7147  wins 9/20  mean diff +0.04% of B1
+  q9b_T1                     < q9b_T3rep                   p=0.8529  wins 6/20  mean diff +0.04% of B1
+  q9b_T1                     < q9b_T2                      p=0.8919  wins 8/20  mean diff +0.08% of B1
+  q9b_T1                     < sol                         p=0.8988  wins 6/20  mean diff +0.06% of B1
+  q9b_T1                     < luna                        p=0.3371  wins 12/20  mean diff -0.12% of B1
+  q9b_T1                     < haiku                       p=0.0220  wins 14/20  mean diff -0.18% of B1
+  q9b_T1                     < q9b_api                     p=0.0070  wins 15/20  mean diff -0.16% of B1
+  sol                        < B2_distance                 p=0.0000  wins 20/20  mean diff -1.01% of B1
+  sol                        < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.85% of B1
+  sol                        < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.81% of B1
+  sol                        < coder7b                     p=0.6854  wins 8/20  mean diff -0.01% of B1
+  sol                        < q9b_T3                      p=0.4347  wins 10/20  mean diff -0.02% of B1
+  sol                        < q9b_T3rep                   p=0.6280  wins 6/20  mean diff -0.02% of B1
+  sol                        < q9b_T2                      p=0.7510  wins 8/20  mean diff +0.02% of B1
+  sol                        < q9b_T1                      p=0.1081  wins 14/20  mean diff -0.06% of B1
+  sol                        < luna                        p=0.1153  wins 12/20  mean diff -0.18% of B1
+  sol                        < haiku                       p=0.0096  wins 15/20  mean diff -0.24% of B1
+  sol                        < q9b_api                     p=0.0013  wins 17/20  mean diff -0.22% of B1
+  luna                       < B2_distance                 p=0.0000  wins 20/20  mean diff -0.83% of B1
+  luna                       < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.68% of B1
+  luna                       < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -1.63% of B1
+  luna                       < coder7b                     p=0.9232  wins 7/20  mean diff +0.17% of B1
+  luna                       < q9b_T3                      p=0.8159  wins 7/20  mean diff +0.16% of B1
+  luna                       < q9b_T3rep                   p=0.9932  wins 3/20  mean diff +0.15% of B1
+  luna                       < q9b_T2                      p=0.9758  wins 6/20  mean diff +0.19% of B1
+  luna                       < q9b_T1                      p=0.6762  wins 8/20  mean diff +0.12% of B1
+  luna                       < sol                         p=0.8919  wins 8/20  mean diff +0.18% of B1
+  luna                       < haiku                       p=0.2490  wins 11/20  mean diff -0.06% of B1
+  luna                       < q9b_api                     p=0.2853  wins 11/20  mean diff -0.04% of B1
+  haiku                      < B2_distance                 p=0.0000  wins 19/20  mean diff -0.77% of B1
+  haiku                      < B3_dist_turn                p=0.0000  wins 20/20  mean diff -1.62% of B1
+  haiku                      < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.58% of B1
+  haiku                      < coder7b                     p=0.9958  wins 4/20  mean diff +0.23% of B1
+  haiku                      < q9b_T3                      p=0.9990  wins 3/20  mean diff +0.22% of B1
+  haiku                      < q9b_T3rep                   p=0.9932  wins 4/20  mean diff +0.21% of B1
+  haiku                      < q9b_T2                      p=0.9984  wins 4/20  mean diff +0.25% of B1
+  haiku                      < q9b_T1                      p=0.9800  wins 6/20  mean diff +0.18% of B1
+  haiku                      < sol                         p=0.9914  wins 5/20  mean diff +0.24% of B1
+  haiku                      < luna                        p=0.7625  wins 9/20  mean diff +0.06% of B1
+  haiku                      < q9b_api                     p=0.0947  wins 13/20  mean diff +0.02% of B1
+  q9b_api                    < B2_distance                 p=0.0002  wins 17/20  mean diff -0.79% of B1
+  q9b_api                    < B3_dist_turn                p=0.0000  wins 19/20  mean diff -1.64% of B1
+  q9b_api                    < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.60% of B1
+  q9b_api                    < coder7b                     p=0.9990  wins 5/20  mean diff +0.21% of B1
+  q9b_api                    < q9b_T3                      p=0.9986  wins 3/20  mean diff +0.20% of B1
+  q9b_api                    < q9b_T3rep                   p=0.9981  wins 2/20  mean diff +0.19% of B1
+  q9b_api                    < q9b_T2                      p=0.9995  wins 3/20  mean diff +0.23% of B1
+  q9b_api                    < q9b_T1                      p=0.9930  wins 4/20  mean diff +0.16% of B1
+  q9b_api                    < sol                         p=0.9987  wins 2/20  mean diff +0.22% of B1
+  q9b_api                    < luna                        p=0.7271  wins 9/20  mean diff +0.04% of B1
+  q9b_api                    < haiku                       p=0.9116  wins 7/20  mean diff -0.02% of B1
+Friedman over ['B2_distance', 'B3_dist_turn', 'B4_dist_turn_battery', 'coder7b', 'q9b_T3', 'q9b_T3rep', 'q9b_T2', 'q9b_T1', 'sol', 'luna', 'haiku', 'q9b_api']: chi2=135.14 p=0.0000
+
+===== budget 15x40 =====
+fields=20  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_distance                            0.9356          0.0952          0.9324     0.0018         6.35
+B3_dist_turn                           0.9401          0.0949          0.9357     0.0026         6.37
+B4_dist_turn_battery                   0.9414          0.0948          0.9372     0.0023         6.33
+coder7b                                0.9326          0.0982          0.9306     0.0012         6.33
+q9b_T3                                 0.9327          0.0973          0.9304     0.0014         6.33
+q9b_T3rep                              0.9320          0.0977          0.9300     0.0014         6.33
+q9b_T2                                 0.9325          0.0978          0.9301     0.0014         6.33
+q9b_T1                                 0.9344          0.0976          0.9316     0.0015         6.34
+sol                                    0.9330          0.0990          0.9307     0.0013         6.30
+luna                                   0.9329          0.0987          0.9300     0.0017         6.28
+haiku                                  0.9337          0.0958          0.9321     0.0011         6.35
+q9b_api                                0.9368          0.0980          0.9341     0.0017         6.33
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B3_dist_turn                p=0.0001  wins 19/20  mean diff -0.49% of B1
+  B2_distance                < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -0.60% of B1
+  B2_distance                < coder7b                     p=0.9987  wins 4/20  mean diff +0.53% of B1
+  B2_distance                < q9b_T3                      p=0.9990  wins 3/20  mean diff +0.48% of B1
+  B2_distance                < q9b_T3rep                   p=0.9999  wins 1/20  mean diff +0.53% of B1
+  B2_distance                < q9b_T2                      p=0.9992  wins 3/20  mean diff +0.53% of B1
+  B2_distance                < q9b_T1                      p=0.9318  wins 8/20  mean diff +0.35% of B1
+  B2_distance                < sol                         p=0.9960  wins 5/20  mean diff +0.48% of B1
+  B2_distance                < luna                        p=0.9960  wins 5/20  mean diff +0.45% of B1
+  B2_distance                < haiku                       p=0.9976  wins 5/20  mean diff +0.30% of B1
+  B2_distance                < q9b_api                     p=0.3437  wins 11/20  mean diff +0.16% of B1
+  B3_dist_turn               < B2_distance                 p=0.9999  wins 0/20  mean diff +0.49% of B1
+  B3_dist_turn               < B4_dist_turn_battery        p=0.0096  wins 15/20  mean diff -0.11% of B1
+  B3_dist_turn               < coder7b                     p=0.9999  wins 0/20  mean diff +1.02% of B1
+  B3_dist_turn               < q9b_T3                      p=0.9999  wins 0/20  mean diff +0.97% of B1
+  B3_dist_turn               < q9b_T3rep                   p=0.9999  wins 0/20  mean diff +1.02% of B1
+  B3_dist_turn               < q9b_T2                      p=0.9999  wins 0/20  mean diff +1.02% of B1
+  B3_dist_turn               < q9b_T1                      p=0.9994  wins 2/20  mean diff +0.84% of B1
+  B3_dist_turn               < sol                         p=0.9998  wins 2/20  mean diff +0.97% of B1
+  B3_dist_turn               < luna                        p=0.9999  wins 1/20  mean diff +0.94% of B1
+  B3_dist_turn               < haiku                       p=0.9999  wins 0/20  mean diff +0.79% of B1
+  B3_dist_turn               < q9b_api                     p=0.9902  wins 4/20  mean diff +0.65% of B1
+  B4_dist_turn_battery       < B2_distance                 p=1.0000  wins 1/20  mean diff +0.60% of B1
+  B4_dist_turn_battery       < B3_dist_turn                p=0.9914  wins 5/20  mean diff +0.11% of B1
+  B4_dist_turn_battery       < coder7b                     p=1.0000  wins 1/20  mean diff +1.12% of B1
+  B4_dist_turn_battery       < q9b_T3                      p=1.0000  wins 1/20  mean diff +1.08% of B1
+  B4_dist_turn_battery       < q9b_T3rep                   p=1.0000  wins 1/20  mean diff +1.13% of B1
+  B4_dist_turn_battery       < q9b_T2                      p=1.0000  wins 1/20  mean diff +1.12% of B1
+  B4_dist_turn_battery       < q9b_T1                      p=0.9998  wins 2/20  mean diff +0.95% of B1
+  B4_dist_turn_battery       < sol                         p=1.0000  wins 1/20  mean diff +1.08% of B1
+  B4_dist_turn_battery       < luna                        p=1.0000  wins 0/20  mean diff +1.04% of B1
+  B4_dist_turn_battery       < haiku                       p=1.0000  wins 1/20  mean diff +0.90% of B1
+  B4_dist_turn_battery       < q9b_api                     p=0.9976  wins 4/20  mean diff +0.75% of B1
+  coder7b                    < B2_distance                 p=0.0013  wins 15/20  mean diff -0.53% of B1
+  coder7b                    < B3_dist_turn                p=0.0001  wins 19/20  mean diff -1.02% of B1
+  coder7b                    < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.12% of B1
+  coder7b                    < q9b_T3                      p=0.3738  wins 10/20  mean diff -0.05% of B1
+  coder7b                    < q9b_T3rep                   p=0.8845  wins 5/20  mean diff +0.00% of B1
+  coder7b                    < q9b_T2                      p=0.7402  wins 7/20  mean diff -0.00% of B1
+  coder7b                    < q9b_T1                      p=0.0005  wins 16/20  mean diff -0.18% of B1
+  coder7b                    < sol                         p=0.0321  wins 13/20  mean diff -0.04% of B1
+  coder7b                    < luna                        p=0.0921  wins 14/20  mean diff -0.08% of B1
+  coder7b                    < haiku                       p=0.0149  wins 13/20  mean diff -0.23% of B1
+  coder7b                    < q9b_api                     p=0.0011  wins 15/20  mean diff -0.37% of B1
+  q9b_T3                     < B2_distance                 p=0.0010  wins 16/20  mean diff -0.48% of B1
+  q9b_T3                     < B3_dist_turn                p=0.0001  wins 19/20  mean diff -0.97% of B1
+  q9b_T3                     < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.08% of B1
+  q9b_T3                     < coder7b                     p=0.6262  wins 9/20  mean diff +0.05% of B1
+  q9b_T3                     < q9b_T3rep                   p=0.9505  wins 4/20  mean diff +0.05% of B1
+  q9b_T3                     < q9b_T2                      p=0.8254  wins 8/20  mean diff +0.05% of B1
+  q9b_T3                     < q9b_T1                      p=0.0021  wins 15/20  mean diff -0.13% of B1
+  q9b_T3                     < sol                         p=0.1216  wins 13/20  mean diff +0.00% of B1
+  q9b_T3                     < luna                        p=0.4046  wins 11/20  mean diff -0.03% of B1
+  q9b_T3                     < haiku                       p=0.0050  wins 15/20  mean diff -0.18% of B1
+  q9b_T3                     < q9b_api                     p=0.0040  wins 15/20  mean diff -0.32% of B1
+  q9b_T3rep                  < B2_distance                 p=0.0001  wins 18/20  mean diff -0.53% of B1
+  q9b_T3rep                  < B3_dist_turn                p=0.0001  wins 19/20  mean diff -1.02% of B1
+  q9b_T3rep                  < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.13% of B1
+  q9b_T3rep                  < coder7b                     p=0.1155  wins 13/20  mean diff -0.00% of B1
+  q9b_T3rep                  < q9b_T3                      p=0.0495  wins 15/20  mean diff -0.05% of B1
+  q9b_T3rep                  < q9b_T2                      p=0.1299  wins 14/20  mean diff -0.00% of B1
+  q9b_T3rep                  < q9b_T1                      p=0.0111  wins 14/20  mean diff -0.18% of B1
+  q9b_T3rep                  < sol                         p=0.0785  wins 13/20  mean diff -0.05% of B1
+  q9b_T3rep                  < luna                        p=0.0134  wins 15/20  mean diff -0.09% of B1
+  q9b_T3rep                  < haiku                       p=0.0165  wins 13/20  mean diff -0.23% of B1
+  q9b_T3rep                  < q9b_api                     p=0.0001  wins 18/20  mean diff -0.37% of B1
+  q9b_T2                     < B2_distance                 p=0.0008  wins 16/20  mean diff -0.53% of B1
+  q9b_T2                     < B3_dist_turn                p=0.0001  wins 19/20  mean diff -1.02% of B1
+  q9b_T2                     < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.12% of B1
+  q9b_T2                     < coder7b                     p=0.2598  wins 12/20  mean diff +0.00% of B1
+  q9b_T2                     < q9b_T3                      p=0.1746  wins 10/20  mean diff -0.05% of B1
+  q9b_T2                     < q9b_T3rep                   p=0.8701  wins 5/20  mean diff +0.00% of B1
+  q9b_T2                     < q9b_T1                      p=0.0006  wins 15/20  mean diff -0.18% of B1
+  q9b_T2                     < sol                         p=0.0418  wins 13/20  mean diff -0.04% of B1
+  q9b_T2                     < luna                        p=0.0989  wins 13/20  mean diff -0.08% of B1
+  q9b_T2                     < haiku                       p=0.0050  wins 14/20  mean diff -0.23% of B1
+  q9b_T2                     < q9b_api                     p=0.0002  wins 16/20  mean diff -0.37% of B1
+  q9b_T1                     < B2_distance                 p=0.0682  wins 11/20  mean diff -0.35% of B1
+  q9b_T1                     < B3_dist_turn                p=0.0006  wins 17/20  mean diff -0.84% of B1
+  q9b_T1                     < B4_dist_turn_battery        p=0.0003  wins 18/20  mean diff -0.95% of B1
+  q9b_T1                     < coder7b                     p=0.9995  wins 2/20  mean diff +0.18% of B1
+  q9b_T1                     < q9b_T3                      p=0.9979  wins 4/20  mean diff +0.13% of B1
+  q9b_T1                     < q9b_T3rep                   p=0.9889  wins 4/20  mean diff +0.18% of B1
+  q9b_T1                     < q9b_T2                      p=0.9994  wins 4/20  mean diff +0.18% of B1
+  q9b_T1                     < sol                         p=0.9611  wins 6/20  mean diff +0.13% of B1
+  q9b_T1                     < luna                        p=0.9318  wins 6/20  mean diff +0.10% of B1
+  q9b_T1                     < haiku                       p=0.4840  wins 10/20  mean diff -0.05% of B1
+  q9b_T1                     < q9b_api                     p=0.0238  wins 14/20  mean diff -0.19% of B1
+  sol                        < B2_distance                 p=0.0040  wins 14/20  mean diff -0.48% of B1
+  sol                        < B3_dist_turn                p=0.0002  wins 17/20  mean diff -0.97% of B1
+  sol                        < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -1.08% of B1
+  sol                        < coder7b                     p=0.9679  wins 5/20  mean diff +0.04% of B1
+  sol                        < q9b_T3                      p=0.8784  wins 6/20  mean diff -0.00% of B1
+  sol                        < q9b_T3rep                   p=0.9215  wins 5/20  mean diff +0.05% of B1
+  sol                        < q9b_T2                      p=0.9582  wins 6/20  mean diff +0.04% of B1
+  sol                        < q9b_T1                      p=0.0389  wins 12/20  mean diff -0.13% of B1
+  sol                        < luna                        p=0.5639  wins 8/20  mean diff -0.04% of B1
+  sol                        < haiku                       p=0.0383  wins 13/20  mean diff -0.18% of B1
+  sol                        < q9b_api                     p=0.0009  wins 16/20  mean diff -0.32% of B1
+  luna                       < B2_distance                 p=0.0040  wins 14/20  mean diff -0.45% of B1
+  luna                       < B3_dist_turn                p=0.0001  wins 18/20  mean diff -0.94% of B1
+  luna                       < B4_dist_turn_battery        p=0.0000  wins 20/20  mean diff -1.04% of B1
+  luna                       < coder7b                     p=0.9079  wins 5/20  mean diff +0.08% of B1
+  luna                       < q9b_T3                      p=0.5954  wins 8/20  mean diff +0.03% of B1
+  luna                       < q9b_T3rep                   p=0.9866  wins 4/20  mean diff +0.09% of B1
+  luna                       < q9b_T2                      p=0.9011  wins 6/20  mean diff +0.08% of B1
+  luna                       < q9b_T1                      p=0.0682  wins 13/20  mean diff -0.10% of B1
+  luna                       < sol                         p=0.4361  wins 11/20  mean diff +0.04% of B1
+  luna                       < haiku                       p=0.2223  wins 10/20  mean diff -0.15% of B1
+  luna                       < q9b_api                     p=0.0015  wins 16/20  mean diff -0.29% of B1
+  haiku                      < B2_distance                 p=0.0024  wins 14/20  mean diff -0.30% of B1
+  haiku                      < B3_dist_turn                p=0.0001  wins 19/20  mean diff -0.79% of B1
+  haiku                      < B4_dist_turn_battery        p=0.0000  wins 19/20  mean diff -0.90% of B1
+  haiku                      < coder7b                     p=0.9851  wins 6/20  mean diff +0.23% of B1
+  haiku                      < q9b_T3                      p=0.9950  wins 4/20  mean diff +0.18% of B1
+  haiku                      < q9b_T3rep                   p=0.9835  wins 6/20  mean diff +0.23% of B1
+  haiku                      < q9b_T2                      p=0.9950  wins 5/20  mean diff +0.23% of B1
+  haiku                      < q9b_T1                      p=0.5160  wins 9/20  mean diff +0.05% of B1
+  haiku                      < sol                         p=0.9617  wins 6/20  mean diff +0.18% of B1
+  haiku                      < luna                        p=0.7777  wins 9/20  mean diff +0.15% of B1
+  haiku                      < q9b_api                     p=0.0682  wins 12/20  mean diff -0.14% of B1
+  q9b_api                    < B2_distance                 p=0.6563  wins 8/20  mean diff -0.16% of B1
+  q9b_api                    < B3_dist_turn                p=0.0098  wins 15/20  mean diff -0.65% of B1
+  q9b_api                    < B4_dist_turn_battery        p=0.0028  wins 16/20  mean diff -0.75% of B1
+  q9b_api                    < coder7b                     p=0.9989  wins 3/20  mean diff +0.37% of B1
+  q9b_api                    < q9b_T3                      p=0.9960  wins 4/20  mean diff +0.32% of B1
+  q9b_api                    < q9b_T3rep                   p=0.9999  wins 0/20  mean diff +0.37% of B1
+  q9b_api                    < q9b_T2                      p=0.9998  wins 3/20  mean diff +0.37% of B1
+  q9b_api                    < q9b_T1                      p=0.9762  wins 4/20  mean diff +0.19% of B1
+  q9b_api                    < sol                         p=0.9991  wins 2/20  mean diff +0.32% of B1
+  q9b_api                    < luna                        p=0.9985  wins 3/20  mean diff +0.29% of B1
+  q9b_api                    < haiku                       p=0.9318  wins 7/20  mean diff +0.14% of B1
+Friedman over ['B2_distance', 'B3_dist_turn', 'B4_dist_turn_battery', 'coder7b', 'q9b_T3', 'q9b_T3rep', 'q9b_T2', 'q9b_T1', 'sol', 'luna', 'haiku', 'q9b_api']: chi2=112.56 p=0.0000
+
+===== budget 30x150 =====
+fields=20  seeds/method=10
+
+method                       mean ratio to B1 std over fields best-seed ratio seed noise mean sorties
+B1_boustrophedon                       1.0000          0.0000          1.0000     0.0000         7.10
+B2_distance                            0.9304          0.0959          0.9283     0.0015         6.35
+B3_dist_turn                           0.9302          0.0972          0.9272     0.0019         6.34
+B4_dist_turn_battery                   0.9305          0.0968          0.9275     0.0022         6.30
+coder7b                                0.9304          0.0983          0.9286     0.0013         6.30
+q9b_T3                                 0.9295          0.0975          0.9277     0.0013         6.31
+q9b_T3rep                              0.9299          0.0985          0.9284     0.0009         6.30
+q9b_T2                                 0.9299          0.0979          0.9278     0.0014         6.33
+q9b_T1                                 0.9321          0.0979          0.9302     0.0015         6.33
+sol                                    0.9312          0.0988          0.9290     0.0014         6.30
+luna                                   0.9303          0.0988          0.9280     0.0015         6.26
+haiku                                  0.9313          0.0963          0.9285     0.0015         6.34
+q9b_api                                0.9359          0.0983          0.9336     0.0017         6.33
+
+Wilcoxon signed-rank (paired over fields, mean over seeds), H1: row < column
+  B2_distance                < B3_dist_turn                p=0.6710  wins 9/20  mean diff +0.06% of B1
+  B2_distance                < B4_dist_turn_battery        p=0.4046  wins 10/20  mean diff -0.00% of B1
+  B2_distance                < coder7b                     p=0.7777  wins 9/20  mean diff +0.08% of B1
+  B2_distance                < q9b_T3                      p=0.9679  wins 6/20  mean diff +0.15% of B1
+  B2_distance                < q9b_T3rep                   p=0.7270  wins 10/20  mean diff +0.11% of B1
+  B2_distance                < q9b_T2                      p=0.9369  wins 8/20  mean diff +0.16% of B1
+  B2_distance                < q9b_T1                      p=0.0351  wins 14/20  mean diff -0.09% of B1
+  B2_distance                < sol                         p=0.6109  wins 10/20  mean diff +0.04% of B1
+  B2_distance                < luna                        p=0.4679  wins 11/20  mean diff +0.08% of B1
+  B2_distance                < haiku                       p=0.0737  wins 11/20  mean diff -0.07% of B1
+  B2_distance                < q9b_api                     p=0.0027  wins 15/20  mean diff -0.41% of B1
+  B3_dist_turn               < B2_distance                 p=0.3290  wins 10/20  mean diff -0.06% of B1
+  B3_dist_turn               < B4_dist_turn_battery        p=0.1671  wins 11/20  mean diff -0.06% of B1
+  B3_dist_turn               < coder7b                     p=0.3004  wins 10/20  mean diff +0.03% of B1
+  B3_dist_turn               < q9b_T3                      p=0.9011  wins 6/20  mean diff +0.09% of B1
+  B3_dist_turn               < q9b_T3rep                   p=0.7530  wins 9/20  mean diff +0.05% of B1
+  B3_dist_turn               < q9b_T2                      p=0.9733  wins 6/20  mean diff +0.11% of B1
+  B3_dist_turn               < q9b_T1                      p=0.0418  wins 12/20  mean diff -0.14% of B1
+  B3_dist_turn               < sol                         p=0.2866  wins 10/20  mean diff -0.02% of B1
+  B3_dist_turn               < luna                        p=0.3290  wins 9/20  mean diff +0.02% of B1
+  B3_dist_turn               < haiku                       p=0.1386  wins 10/20  mean diff -0.12% of B1
+  B3_dist_turn               < q9b_api                     p=0.0001  wins 18/20  mean diff -0.46% of B1
+  B4_dist_turn_battery       < B2_distance                 p=0.5954  wins 9/20  mean diff +0.00% of B1
+  B4_dist_turn_battery       < B3_dist_turn                p=0.8329  wins 8/20  mean diff +0.06% of B1
+  B4_dist_turn_battery       < coder7b                     p=0.8329  wins 7/20  mean diff +0.09% of B1
+  B4_dist_turn_battery       < q9b_T3                      p=0.9263  wins 6/20  mean diff +0.15% of B1
+  B4_dist_turn_battery       < q9b_T3rep                   p=0.9617  wins 6/20  mean diff +0.11% of B1
+  B4_dist_turn_battery       < q9b_T2                      p=0.9582  wins 6/20  mean diff +0.17% of B1
+  B4_dist_turn_battery       < q9b_T1                      p=0.1216  wins 11/20  mean diff -0.08% of B1
+  B4_dist_turn_battery       < sol                         p=0.5480  wins 10/20  mean diff +0.04% of B1
+  B4_dist_turn_battery       < luna                        p=0.7895  wins 8/20  mean diff +0.08% of B1
+  B4_dist_turn_battery       < haiku                       p=0.3290  wins 10/20  mean diff -0.06% of B1
+  B4_dist_turn_battery       < q9b_api                     p=0.0006  wins 16/20  mean diff -0.40% of B1
+  coder7b                    < B2_distance                 p=0.2223  wins 10/20  mean diff -0.08% of B1
+  coder7b                    < B3_dist_turn                p=0.6996  wins 9/20  mean diff -0.03% of B1
+  coder7b                    < B4_dist_turn_battery        p=0.1671  wins 12/20  mean diff -0.09% of B1
+  coder7b                    < q9b_T3                      p=0.9011  wins 6/20  mean diff +0.06% of B1
+  coder7b                    < q9b_T3rep                   p=0.8570  wins 6/20  mean diff +0.03% of B1
+  coder7b                    < q9b_T2                      p=0.9952  wins 3/20  mean diff +0.08% of B1
+  coder7b                    < q9b_T1                      p=0.0005  wins 16/20  mean diff -0.17% of B1
+  coder7b                    < sol                         p=0.1773  wins 13/20  mean diff -0.04% of B1
+  coder7b                    < luna                        p=0.8021  wins 6/20  mean diff -0.01% of B1
+  coder7b                    < haiku                       p=0.0583  wins 11/20  mean diff -0.15% of B1
+  coder7b                    < q9b_api                     p=0.0001  wins 17/20  mean diff -0.49% of B1
+  q9b_T3                     < B2_distance                 p=0.0321  wins 13/20  mean diff -0.15% of B1
+  q9b_T3                     < B3_dist_turn                p=0.0989  wins 13/20  mean diff -0.09% of B1
+  q9b_T3                     < B4_dist_turn_battery        p=0.0737  wins 13/20  mean diff -0.15% of B1
+  q9b_T3                     < coder7b                     p=0.0989  wins 13/20  mean diff -0.06% of B1
+  q9b_T3                     < q9b_T3rep                   p=0.2344  wins 11/20  mean diff -0.04% of B1
+  q9b_T3                     < q9b_T2                      p=0.3395  wins 10/20  mean diff +0.02% of B1
+  q9b_T3                     < q9b_T1                      p=0.0001  wins 17/20  mean diff -0.23% of B1
+  q9b_T3                     < sol                         p=0.0139  wins 14/20  mean diff -0.10% of B1
+  q9b_T3                     < luna                        p=0.2470  wins 10/20  mean diff -0.07% of B1
+  q9b_T3                     < haiku                       p=0.0015  wins 15/20  mean diff -0.21% of B1
+  q9b_T3                     < q9b_api                     p=0.0004  wins 17/20  mean diff -0.55% of B1
+  q9b_T3rep                  < B2_distance                 p=0.2730  wins 9/20  mean diff -0.11% of B1
+  q9b_T3rep                  < B3_dist_turn                p=0.2470  wins 10/20  mean diff -0.05% of B1
+  q9b_T3rep                  < B4_dist_turn_battery        p=0.0383  wins 13/20  mean diff -0.11% of B1
+  q9b_T3rep                  < coder7b                     p=0.1430  wins 12/20  mean diff -0.03% of B1
+  q9b_T3rep                  < q9b_T3                      p=0.7656  wins 8/20  mean diff +0.04% of B1
+  q9b_T3rep                  < q9b_T2                      p=0.7898  wins 8/20  mean diff +0.06% of B1
+  q9b_T3rep                  < q9b_T1                      p=0.0121  wins 13/20  mean diff -0.20% of B1
+  q9b_T3rep                  < sol                         p=0.0495  wins 14/20  mean diff -0.07% of B1
+  q9b_T3rep                  < luna                        p=0.1746  wins 11/20  mean diff -0.03% of B1
+  q9b_T3rep                  < haiku                       p=0.1137  wins 12/20  mean diff -0.18% of B1
+  q9b_T3rep                  < q9b_api                     p=0.0001  wins 19/20  mean diff -0.51% of B1
+  q9b_T2                     < B2_distance                 p=0.0631  wins 11/20  mean diff -0.16% of B1
+  q9b_T2                     < B3_dist_turn                p=0.0267  wins 13/20  mean diff -0.11% of B1
+  q9b_T2                     < B4_dist_turn_battery        p=0.0418  wins 13/20  mean diff -0.17% of B1
+  q9b_T2                     < coder7b                     p=0.0048  wins 15/20  mean diff -0.08% of B1
+  q9b_T2                     < q9b_T3                      p=0.6605  wins 8/20  mean diff -0.02% of B1
+  q9b_T2                     < q9b_T3rep                   p=0.2102  wins 10/20  mean diff -0.06% of B1
+  q9b_T2                     < q9b_T1                      p=0.0004  wins 17/20  mean diff -0.25% of B1
+  q9b_T2                     < sol                         p=0.0134  wins 15/20  mean diff -0.12% of B1
+  q9b_T2                     < luna                        p=0.1073  wins 11/20  mean diff -0.09% of B1
+  q9b_T2                     < haiku                       p=0.0088  wins 13/20  mean diff -0.23% of B1
+  q9b_T2                     < q9b_api                     p=0.0001  wins 19/20  mean diff -0.57% of B1
+  q9b_T1                     < B2_distance                 p=0.9649  wins 5/20  mean diff +0.09% of B1
+  q9b_T1                     < B3_dist_turn                p=0.9582  wins 7/20  mean diff +0.14% of B1
+  q9b_T1                     < B4_dist_turn_battery        p=0.8784  wins 8/20  mean diff +0.08% of B1
+  q9b_T1                     < coder7b                     p=0.9995  wins 3/20  mean diff +0.17% of B1
+  q9b_T1                     < q9b_T3                      p=0.9999  wins 1/20  mean diff +0.23% of B1
+  q9b_T1                     < q9b_T3rep                   p=0.9879  wins 6/20  mean diff +0.20% of B1
+  q9b_T1                     < q9b_T2                      p=0.9996  wins 2/20  mean diff +0.25% of B1
+  q9b_T1                     < sol                         p=0.9972  wins 3/20  mean diff +0.13% of B1
+  q9b_T1                     < luna                        p=0.9835  wins 4/20  mean diff +0.16% of B1
+  q9b_T1                     < haiku                       p=0.8523  wins 7/20  mean diff +0.02% of B1
+  q9b_T1                     < q9b_api                     p=0.0054  wins 14/20  mean diff -0.32% of B1
+  sol                        < B2_distance                 p=0.3891  wins 9/20  mean diff -0.04% of B1
+  sol                        < B3_dist_turn                p=0.7134  wins 9/20  mean diff +0.02% of B1
+  sol                        < B4_dist_turn_battery        p=0.4520  wins 9/20  mean diff -0.04% of B1
+  sol                        < coder7b                     p=0.8227  wins 6/20  mean diff +0.04% of B1
+  sol                        < q9b_T3                      p=0.9861  wins 4/20  mean diff +0.10% of B1
+  sol                        < q9b_T3rep                   p=0.9505  wins 5/20  mean diff +0.07% of B1
+  sol                        < q9b_T2                      p=0.9866  wins 4/20  mean diff +0.12% of B1
+  sol                        < q9b_T1                      p=0.0028  wins 15/20  mean diff -0.13% of B1
+  sol                        < luna                        p=0.8863  wins 5/20  mean diff +0.04% of B1
+  sol                        < haiku                       p=0.1880  wins 12/20  mean diff -0.11% of B1
+  sol                        < q9b_api                     p=0.0006  wins 16/20  mean diff -0.45% of B1
+  luna                       < B2_distance                 p=0.5321  wins 8/20  mean diff -0.08% of B1
+  luna                       < B3_dist_turn                p=0.6710  wins 10/20  mean diff -0.02% of B1
+  luna                       < B4_dist_turn_battery        p=0.2105  wins 11/20  mean diff -0.08% of B1
+  luna                       < coder7b                     p=0.1979  wins 12/20  mean diff +0.01% of B1
+  luna                       < q9b_T3                      p=0.7530  wins 9/20  mean diff +0.07% of B1
+  luna                       < q9b_T3rep                   p=0.8254  wins 7/20  mean diff +0.03% of B1
+  luna                       < q9b_T2                      p=0.8927  wins 7/20  mean diff +0.09% of B1
+  luna                       < q9b_T1                      p=0.0165  wins 15/20  mean diff -0.16% of B1
+  luna                       < sol                         p=0.1137  wins 14/20  mean diff -0.04% of B1
+  luna                       < haiku                       p=0.1299  wins 11/20  mean diff -0.14% of B1
+  luna                       < q9b_api                     p=0.0001  wins 19/20  mean diff -0.48% of B1
+  haiku                      < B2_distance                 p=0.9263  wins 8/20  mean diff +0.07% of B1
+  haiku                      < B3_dist_turn                p=0.8614  wins 9/20  mean diff +0.12% of B1
+  haiku                      < B4_dist_turn_battery        p=0.6710  wins 9/20  mean diff +0.06% of B1
+  haiku                      < coder7b                     p=0.9417  wins 8/20  mean diff +0.15% of B1
+  haiku                      < q9b_T3                      p=0.9985  wins 4/20  mean diff +0.21% of B1
+  haiku                      < q9b_T3rep                   p=0.8863  wins 7/20  mean diff +0.18% of B1
+  haiku                      < q9b_T2                      p=0.9912  wins 6/20  mean diff +0.23% of B1
+  haiku                      < q9b_T1                      p=0.1477  wins 12/20  mean diff -0.02% of B1
+  haiku                      < sol                         p=0.8120  wins 7/20  mean diff +0.11% of B1
+  haiku                      < luna                        p=0.8701  wins 8/20  mean diff +0.14% of B1
+  haiku                      < q9b_api                     p=0.0024  wins 15/20  mean diff -0.34% of B1
+  q9b_api                    < B2_distance                 p=0.9973  wins 4/20  mean diff +0.41% of B1
+  q9b_api                    < B3_dist_turn                p=0.9999  wins 1/20  mean diff +0.46% of B1
+  q9b_api                    < B4_dist_turn_battery        p=0.9994  wins 3/20  mean diff +0.40% of B1
+  q9b_api                    < coder7b                     p=0.9999  wins 2/20  mean diff +0.49% of B1
+  q9b_api                    < q9b_T3                      p=0.9996  wins 1/20  mean diff +0.55% of B1
+  q9b_api                    < q9b_T3rep                   p=0.9999  wins 0/20  mean diff +0.51% of B1
+  q9b_api                    < q9b_T2                      p=0.9999  wins 0/20  mean diff +0.57% of B1
+  q9b_api                    < q9b_T1                      p=0.9946  wins 4/20  mean diff +0.32% of B1
+  q9b_api                    < sol                         p=0.9994  wins 2/20  mean diff +0.45% of B1
+  q9b_api                    < luna                        p=0.9999  wins 0/20  mean diff +0.48% of B1
+  q9b_api                    < haiku                       p=0.9976  wins 4/20  mean diff +0.34% of B1
+Friedman over ['B2_distance', 'B3_dist_turn', 'B4_dist_turn_battery', 'coder7b', 'q9b_T3', 'q9b_T3rep', 'q9b_T2', 'q9b_T1', 'sol', 'luna', 'haiku', 'q9b_api']: chi2=55.96 p=0.0000
