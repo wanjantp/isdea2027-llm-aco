@@ -7,7 +7,7 @@ Naming: evolve_<where>_<model>_<template>[_repair].json
 
 | config | model | role |
 |---|---|---|
-| evolve_local_qwen25coder7b_T3 | qwen2.5-coder:7b | local, literature anchor (same family as Zhang et al. 2024 / CALM) |
+| evolve_local_qwen25coder7b_T3 | qwen2.5-coder:7b | local, small open-weight code model |
 | evolve_local_qwen35_9b_T3 | qwen3.5:9b | local, MAIN small model (P1) |
 | evolve_local_qwen35_9b_T1 / _T2 | qwen3.5:9b | ablation: distance-only / geometry-only templates |
 | evolve_local_qwen35_9b_T3_repair | qwen3.5:9b | cheap fix: one self-repair round for failed code |

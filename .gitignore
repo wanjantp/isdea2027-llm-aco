@@ -39,3 +39,6 @@ API_KEY.txt
 _sync.tgz
 figures/fb_post.png
 !experiments/results/evolve/*.log
+
+# manuscript lives outside the repository
+paper/
